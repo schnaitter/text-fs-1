@@ -33,3 +33,4 @@ repository:
 
 lauch_buttons:
   binderhub_url: "https://mybinder.org" # could also be jupyterhub_url or colab_url
+  thebe: true
