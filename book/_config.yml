@@ -27,7 +27,7 @@ html:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/dh-network/quadriga/
+  url: https://github.com/dh-network/quadriga
   path_to_book: book
   branch: main
 
