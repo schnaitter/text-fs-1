@@ -1,0 +1,12 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: markdown/intro
+chapters:
+- file: markdown/corpus_creation
+- file: data-input/FS_1_MVP_Data_Input_Homogenisation
+- file: markdown/nlp
+- file: nlp-enrichment/NLP-Enrichment 
+- file: markdown/analysis
+- file: word_search/FS_1_MVP_Analysis_Prototype_101
