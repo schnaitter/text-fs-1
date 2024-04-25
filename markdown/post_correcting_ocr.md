@@ -1,4 +1,4 @@
-# Post-Correction of OCR output
+# Introduction to the Post-Correction of OCR output
 * Why do we need it?
 * What methods are there:
   * Manual

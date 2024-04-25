@@ -1,4 +1,4 @@
-# Texts as digital objects
+# Introduction: Texts as digital objects
 
 * txt
 * XML

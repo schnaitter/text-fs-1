@@ -1,40 +1,33 @@
 format: jb-book
 root: markdown/intro
 parts:
-  - caption: Data Homogenisation – From image to text
+  - caption: Introduction
+    chapters:
+    - file: markdown/introduction 
+  - caption: Corpus Collection
     chapters:
     - file: markdown/text_as_digital_objects
-      sections:
-      - file: markdown/ocr
-      - file: data-input/FS_1_MVP_Data_Input_Homogenisation
-    - file: markdown/post_correcting_ocr
-      sections:
-      - file: markdown/manual-correction
-      - file: markdown/rule-based-correction
-      - file: markdown/LLM-based-correction
+    - file: markdown/metadata
+  - caption: Corpus Preparation
+    chapters:
+    - file: markdown/ocr
+    - file: data-input/FS_1_MVP_Data_Input_Homogenisation
     - file: markdown/ocr-quality
-    - file: markdown/xml-extraction
-  - caption: Data Enrichment
+  - caption: Post-Correction of the OCR Output
+    chapters:
+    - file: markdown/post_correcting_ocr
+    - file: markdown/rule-based-correction
+    - file: markdown/LLM-based-correction
+  - caption: Corpus Processing – From Strings to Sentences and Tokens
     chapters:
     - file: markdown/nlp-intro
-      sections:
-      - file: markdown/nlp-methods
-      - file: nlp-enrichment/NLP-Enrichment
-    - file: markdown/nlp-quality
+    - file: markdown/spacy
+    - file: nlp-enrichment/NLP-Enrichment
     - file: markdown/text-table
-  - caption: Metadata
-    chapters:
-    - file: markdown/metadata
-    - file: markdown/metadata-extension
-  - caption: Analysis of the newspapers
+  - caption: Corpus Analysis
     chapters:
     - file: markdown/analysis 
-      sections:
-      - file: markdown/line-plot
-      - file: markdown/kwic
-      - file: word_search/FS_1_MVP_Analysis_Prototype_101
-    - file: markdown/analysis-by-newspapers
-    - file: markdown/intersection-semantic-fields
+    - file: word_search/FS_1_MVP_Analysis_Prototype_101
   - caption: Wrap Up
     chapters:
     - file: markdown/final-discussion

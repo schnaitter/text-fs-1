@@ -1,1 +1,1 @@
-# What is OCR?
+# Introduction to Optical Character Recognition (OCR)
