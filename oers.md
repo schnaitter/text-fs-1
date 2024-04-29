@@ -8,27 +8,35 @@ Different Formats:
  * Sorting (e.g. given this setup, what steps need to be taken in which order / sort the choice of tools accordingly),  
  * Ranking (e.g. rank data formats in terms of their automatic processability)
 
-0. Operationalization of the research question: How to examine media waves: Video 
- * Where are we starting from? (newspaper articles in various formats)
+## Chapter 0. Introduction: Operationalization of the research question - How to examine media waves: Video 
+ * Where are we starting from? (newspaper articles in PDF / jpg format)
  * Where do we want to end up? (wikipedia like plot on the newspaper coverage on the Spanish flu)
 
-## Chapter 1: Data Homogenisation
-1. Text as digital object – formats: xml, pdf / jpg, txt: Text / Video 
-### What is OCR?
-2. What is OCR?: Text / Video
-3. OCR services: Text / Table  
-  * What libraries are they?
-  * What are we using and why?
+## Chapter 1: Corpus Collection 
+1. Text as digital object – formats: pdf / jpg: Text / Video 
+2. Metadata (conceptual introduction)?: Text / Video
+ * What fields do we need? 
+ * What fields are there, what fields should be added?
+ * Format 
+
+## Chapter 2: Corpus Preparation
+3. What is OCR?
+  * What is OCR?: Text / Video
+  * OCR services: Text / Table  
+	  * What libraries are they?
+	  * What are we using and why?
 4. Application of OCR: Notebook (with Text)
   * What does input data look like?
   * How is it applied?
   * What does the output look like?
-### Post-Correction of OCR
-5. Post-Correction: Text / Video
+5. Quality of OCR : Text / Video & Notebook 
+  * How to compare output?
+  * Producing gold-standard data manually 
+  * measurements: accuracy, precision, recall, F1
+## Chapter 3: Post-Correction of OCR
+6. Post-Correction: Text / Video
   * Why and when do we need it?
   * What different methods are there? Manual, Rule-Based, LLM-based
-6. Manual Post-Correction: Notebook
-  * Users manually post-correct sample data
 7. The concept of rule-based Post-Correction: Text / Video
   * Typical OCR mistakes are introduced 
   * RegEx is introduced: Point to external resource (Video / Text / Tutorial) 
@@ -41,55 +49,33 @@ Different Formats:
   * Why do we use X?
   * How we use X
   * Option: Input into Notebook OR directly save as txt file
-10. LLM-Based Post-Correction: Notebook (coul be the same as for manual corection)
+10. LLM-Based Post-Correction: Notebook 
   * Users input the output of LLMs
   * OR: Users look at corrected txt-files and can post-correct them  
-### Quality of OCR
-11. Quality of OCR : Text / Video & Notebook 
- * How to compare output?
- * measurements: accuracy, precision, recall, F1
- * result of our OCR pipeline: Notebook
-### Text Extraction from XML
-12. XML as format: Text / Video
-13. XML text extraction: Notebook
-(14. output format: txt): Notebook 
 
-## Chapter 2: Data Enrichment
+## Chapter 4: Corpus Processing: From strings to sentences and tokens (NLP) 
 14. More to 1.: What do plain texts look like?: Text & Notebook
   * Texts as lists of characters
-### Introduction to NLP
-15. NLP as a method to 'semantizise' texts: Text / Video
+15. Introduction: NLP as a method to 'semantizise' texts: Text / Video
   * What is NLP
+  * Methods of NLP: Text & Notebook
+	  * Tokenization (also: lazy tokenization) 
+	  * Lemmatization
+	  * sentence splitting
+	  * PoS-Tagging
   * Which libraries are available?
   * What tasks can be carried out by the libraries?
-16. Methods of NLP: Text & Notebook
-  * Tokenization (also: lazy tokenization) 
-  * Lemmatization
-  * sentence splitting
-  * PoS-Tagging
-### Quality of NLP services
-17. Quality of NLP services: Text
+16. NLP with spacy: Text
+ * Quality of spacy 
  * How to compare output?
  * measurements: accuracy, precision, recall, F1 
  * How to asssess the results of spacy
    * Language domain
    * historicity of language
-### Text as table
+17. NLP on our research objects (Notebook)   
 18. Annotated Text format (Text as a table): Text / Video
 
-## Chapter 3: Metadata
-### What is our metadata
-19. Metadata (conceptual introduction)?: Text / Video
- * What fields do we need? 
- * What fields are there, what fields should be added?
- * Format 
-### Extension of metadata
-20. Metadata Extension: Notebook
- * What can we extract at this point?
- * Small comparison of the texts: sentence length,number of token, number of lemma, vocab
- * Writing to file
-
-## Chapter 4: Analysis 
+## Chapter 5: Corpus Analysis 
 21a. How to get from a table like text to media waves? (conceptual introduction to Operationalization): Video
  * Basis for analysis: Notebook
    * Lemmata
@@ -111,12 +97,7 @@ Different Formats:
 24. Analysis 2 – Who is talking about the flu: Notebook
  * relative frequency
  * newspaper specific -> parameterization
-### Intersection of semantic fields
-(25. How does the flu conincide with other 'topics'?): Notebook
- * create field of words
- * plot against flu field
- * KWIC output 
-## Chapter 5: Wrap Up
+## Chapter 6: Wrap Up
 26. Final Discussion: Video
   * Comparison of Analysis results with high quality data and data created in the case study
 
