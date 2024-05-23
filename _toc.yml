@@ -11,12 +11,12 @@ parts:
   - caption: Corpus Preparation
     chapters:
     - file: markdown/ocr
-    - file: data-input/FS_1_MVP_Data_Input_Homogenisation
+    - file: data-input/FS_1_MVP_Data_Input_OCR
     - file: markdown/ocr-quality
   - caption: Post-Correction of the OCR Output
     chapters:
     - file: markdown/post_correcting_ocr
-    - file: markdown/rule-based-correction
+    - file: data-input/FS_1_MVP_Post_Correcting_OCR
     - file: markdown/LLM-based-correction
   - caption: Corpus Processing – From Strings to Sentences and Tokens
     chapters:
