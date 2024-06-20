@@ -3,7 +3,9 @@ root: markdown/intro
 parts:
   - caption: Introduction
     chapters:
-    - file: markdown/introduction 
+    - file: markdown/introduction_intro
+    - file: markdown/introduction_overview
+    - file: markdown/introduction_book 
   - caption: Corpus Collection
     chapters:
     - file: markdown/text_as_digital_objects
