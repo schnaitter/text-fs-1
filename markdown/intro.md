@@ -1,4 +1,5 @@
-# Waves of the Spanish Flu – Case Study
+# "Die Grippe wütet weiter". Quantitative Analyse der Medienwellen der Spanischen Grippe (1918/19). 
+## Eine Fallstudie
 
 In this case study we explore newspapers published in Berlin / Brandenburg from 1918 to 1920 in respect to their reporting on the spanish flu. 
 
