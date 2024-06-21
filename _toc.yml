@@ -32,7 +32,7 @@ parts:
   - caption: Corpus Analysis
     chapters:
     - file: markdown/analysis 
-    - file: word_search/FS_1_MVP_Analysis_Prototype_101
+    - file: word_search/FS_1_MVP_Analysis_Diachronic_Frequencies_Plots
   - caption: Wrap Up
     chapters:
     - file: markdown/final-discussion
