@@ -30,12 +30,10 @@ name: Drei Wellen der Spanischen Grippe im Vereinigten Königreich.
 Drei Wellen der Spanischen Grippe im Vereinigten Königreich. Quelle: {cite:p}`taubenberger_2006`
 ```
 
-
-
-ist zudem davon, dass das Verlaufsprofil der "Medienwellen" mit dem Verlaufsprofil der medizinischen Wellen in Zusammenhang steht. 
-
-Für die medizinischen Verlaufsmuster liegen Daten und entsprechende Datenvisualisierungen vor, allerdings nur für Großbritannien. Wir nehmen 
-
+`````{admonition} Operationalisierung
+:class: tip
+Hallo Welt!
+`````
 
 
 
