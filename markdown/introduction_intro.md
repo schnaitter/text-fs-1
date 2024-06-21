@@ -15,7 +15,7 @@ Aus Perspektive einer medienwissenschaftlich informierten historischen Epidemiol
 ## 2. Forschungsfrage und Operationalisierung
 Diese Fallstudie führt durch eine Digital Humanities-Forschungsprojekt, das aus medienhistorischer Perspektive den Verlauf der "Medienwellen" während der Spanischen Grippe 1918/19 – bekannt auch als "the Mother of All Pandemics" {cite:p}`taubenberger_2006` – in Berlin und Brandenburg untersucht hat. Das Forschungsprojekt wurde dabei geleitet von der folgenden Forschungsfrage: 
 
-```{admonition}Forschungsfrage
+```{admonition} Forschungsfrage
 Lassen sich für die Spanische Grippe 1918/1919 mit Fokus auf den Berliner Raum öffentliche Aufmerksamkeitsmuster ("Medienwellen") ausmachen, die den medizinischen Verlaufsmustern ähneln?
 ```
 
