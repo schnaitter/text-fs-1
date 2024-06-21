@@ -49,7 +49,15 @@ Diese Operationalisierung ist, wie jede Operationalisierung in den Digital Human
 Die Reflektion der Grenzen und Beschränkungen, die mit der eigenen Operationalisierung einhergehen, ist essentieller Bestandteil von Digital Humanities-Projekten. Wir werden in der abschließenden [Reflexion](reflection_reflection) darauf zurückkommen. 
 
 ## 3. Struktur der Fallstudie
-Die Fallstudie 
+Die Fallstudie vollzieht 5 Schritte: 
+
+- Im **1. Schritt** bauen wir ein Korpus aus Textobjekten für die Analyse auf, das zunächst aus PDF-Dateien besteht (siehe Kapitel "Korpusaufbau")
+- Im **2. Schritt** machen wir die Textobjekte im Korpus, die zunächst nur als Bilddateien vorliegen, mittels Optical Character Recognition (OCR) maschinenlesbar (siehe Kapitel "OCR — Vom Bild zum Text")
+- Im **3. Schritt** evaluieren wir die OCR-Ergebnisse und testen Optionen zur Nachkorrektur (siehe Kapitel "Nachkorrektur der OCR-Ergebnisse").
+- Im **4. Schritt** reichern wir mithilfe von Verfahren des Natural Language Processing (NLP) die Textobjekte im Korpus mit linguistischen Informationen an. (siehe Kapitel "Korpusverarbeitung – Von Strings zu Token").
+- Im **5. Schritt** führen wir die quantitativen Analysen auf dem Korpus durch udn visualisieren die Ergebnisse (siehe Kapitel "Korpusanalyse").
+
+Die Fallstudie schließt mit einer Reflexion und einem Ausblick (siehe Kapitel "Reflexion und Resümee") 
 
 ## 4. 
 Wie verhält sich die Fallstudie zur durchgeführten Forschungsstudie 
