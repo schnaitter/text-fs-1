@@ -57,7 +57,7 @@ Die Fallstudie vollzieht 5 Schritte:
 - Im **4. Schritt** reichern wir mithilfe von Verfahren des Natural Language Processing (NLP) die Textobjekte im Korpus mit linguistischen Informationen an. (siehe Kapitel ["Korpusverarbeitung – Von Strings zu Token"](corpus-processing_intro)).
 - Im **5. Schritt** führen wir die quantitativen Analysen auf dem Korpus durch udn visualisieren die Ergebnisse (siehe Kapitel ["Korpusanalyse"](corpus-analysis_intro)).
 
-Die Fallstudie schließt mit einer Reflexion und einem Ausblick (siehe Kapitel "Reflexion und Resümee") 
+Die Fallstudie schließt mit einer Reflexion und einem Ausblick (siehe Kapitel ["Reflexion und Resümee"](reflection_reflection)) 
 
 ## 4. 
 Wie verhält sich die Fallstudie zur durchgeführten Forschungsstudie 
