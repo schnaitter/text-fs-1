@@ -13,7 +13,7 @@ parts:
     - file: markdown/corpus-collection_text_as_digital_objects
     - file: markdown/corpus-collection_building-our-corpus.md
     - file: markdown/corpus-collection_summary.md
-  - caption: Corpus Preparation
+  - caption: OCR — Von Bild zum Text
     chapters:
     - file: markdown/ocr
     - file: data-input/FS_1_MVP_Data_Input_OCR
@@ -33,7 +33,8 @@ parts:
   - caption: Corpus Analysis
     chapters:
     - file: markdown/analysis 
-    - file: word_search/FS_1_MVP_Analysis_Prototype_101
+    - file: word_search/FS_1_MVP_Analysis_Diachronic_Frequencies_Plots
+    - file: word_search/FS_1_MVP_Analysis_KWIC
   - caption: Wrap Up
     chapters:
     - file: markdown/final-discussion
