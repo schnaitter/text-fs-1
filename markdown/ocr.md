@@ -2,7 +2,7 @@
 
 **Optical Character Recognition (OCR)** ist eine Technologie, die es ermöglicht, gedruckten oder handgeschriebenen Text in Dokumenten oder Bildern in maschinenlesbaren Text umzuwandeln. OCR-Software analysiert das Layout des Dokuments, erkennt die Formen der Buchstaben und Zahlen und wandelt diese in digitale Texte um, die weiterverarbeitet werden können.
 
-```{figure} ../data_input/grippeocr.gif
+```{figure} ../book_images/grippeocr.gif
 ---
 height: 300px
 name: OCR
