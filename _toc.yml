@@ -25,6 +25,7 @@ parts:
     - file: markdown/LLM-based-correction
   - caption: Korpusverarbeitung – Von Strings zu Token
     chapters:
+    - file: markdown/corpus-processing_intro
     - file: markdown/corpus-processing_intro-to-nlp
     - file: markdown/spacy
     - file: nlp-enrichment/NLP-Enrichment
