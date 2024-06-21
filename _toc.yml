@@ -4,7 +4,7 @@ parts:
   - caption: Einführung
     chapters:
     - file: markdown/introduction_intro
-    - file: markdown/introduction_overview
+    - file: markdown/introduction_learning-outcomes
     - file: markdown/introduction_book 
   - caption: Korpusaufbau
     chapters:
@@ -15,12 +15,13 @@ parts:
     - file: markdown/corpus-collection_summary.md
   - caption: OCR — Vom Bild zum Text
     chapters:
+    - file: markdown/ocr_intro
     - file: markdown/ocr
     - file: data-input/FS_1_MVP_OCR
-    - file: markdown/ocr-quality
     - file: data-input/FS_1_MVP_OCR_Quality
   - caption: Post-Correction of the OCR Output
     chapters:
+    - file: markdown/post-correcting_intro
     - file: markdown/post_correcting_ocr
     - file: data-input/FS_1_MVP_Post_Correcting_OCR
     - file: markdown/LLM-based-correction
