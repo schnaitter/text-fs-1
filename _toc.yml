@@ -13,7 +13,7 @@ parts:
     - file: markdown/corpus-collection_text_as_digital_objects
     - file: markdown/corpus-collection_building-our-corpus.md
     - file: markdown/corpus-collection_summary.md
-  - caption: OCR — Von Bild zum Text
+  - caption: OCR — Vom Bild zum Text
     chapters:
     - file: markdown/ocr
     - file: data-input/FS_1_MVP_Data_Input_OCR
