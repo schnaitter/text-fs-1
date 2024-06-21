@@ -12,8 +12,8 @@ Recall im Kontext der OCR misst die Fähigkeit des OCR-Systems, alle relevanten 
 
 \[ \text{Recall (OCR)} = \frac{\text{Korrekt erkannte Zeichen oder Wörter}}{\text{Gesamtzahl der tatsächlichen Zeichen oder Wörter in den Dokumenten}} \]
 
-### F-Maß (F1-Score) in der OCR
-Das F-Maß oder der F1-Score in der OCR bietet eine einzelne Metrik, die sowohl Präzision als auch Recall kombiniert, um eine ausgewogene Ansicht der Gesamtleistung des OCR-Systems zu geben. Da Präzision und Recall einen Trade-off haben (die Verbesserung des einen kann oft zu einer Verringerung des anderen führen), hilft der F1-Score dabei, die Effektivität des OCR-Systems bei der genauen Texterkennung und der Minimierung sowohl von falsch-positiven als auch von falsch-negativen Erkennungen zu bewerten.
+### F1-Score in der OCR
+Der F1-Score in der OCR bietet eine einzelne Metrik, die sowohl Präzision als auch Recall kombiniert, um eine ausgewogene Ansicht der Gesamtleistung des OCR-Systems zu geben. Da Präzision und Recall einen Trade-off haben (die Verbesserung des einen kann oft zu einer Verringerung des anderen führen), hilft der F1-Score dabei, die Effektivität des OCR-Systems bei der genauen Texterkennung und der Minimierung sowohl von falsch-positiven als auch von falsch-negativen Erkennungen zu bewerten.
 
 \[ \text{F1-Score (OCR)} = 2 \times \frac{\text{Präzision (OCR)} \times \text{Recall (OCR)}}{\text{Präzision (OCR)} + \text{Recall (OCR)}} \]
 
