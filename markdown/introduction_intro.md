@@ -20,7 +20,7 @@ Diese Fallstudie führt durch eine Digital Humanities-Forschungsprojekt, das aus
 Lassen sich für die Spanische Grippe 1918/1919 mit Fokus auf den Berliner Raum öffentliche Aufmerksamkeitsmuster ausmachen, die eine wellenartige Verlaufsform aufweisen? 
 `````
 
-Als eine Orientierungsgröße nehmen wir testweise das Verlaufsprofil der medizinischen Welle der Spanischen Grippe, wie es bei {cite:p}`taubenberger_2006` mit Bezug auf {cite:p}`jordan_epidemic_1928` für Großbritannien berechnet und visualisiert wurde (Fig. 2).
+Als eine Orientierungsgröße nehmen wir testweise das Verlaufsprofil der medizinischen Welle der Spanischen Grippe, wie es bei {cite:p}`taubenberger_2006` für Großbritannien berechnet und visualisiert wurde (Fig. 2).
 
 ```{figure} ../book_images/Drei-Wellen-1918-19-UK.png
 ---
