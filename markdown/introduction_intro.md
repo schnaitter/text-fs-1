@@ -13,14 +13,14 @@ Vergleichende Grafik zum Verlauf der Pest (1665) und der Spanischen Grippe (1918
 Aus Perspektive einer medienwissenschaftlich informierten historischen Epidemiologie überlagern sich dabei unterschiedliche Wellen: Während ‘Fallzahlen‘ (z.B. die Anzahl der Infektionen oder die Anzahl der Todesfälle), wie sie in Fig. 1 dargestellt werden, ein in erster Linie medizinisch zu erhebendes Maß sind, sind die unterschiedliche Intensität und Extensität der öffentlichen Wahrnehmung des pandemischen Geschehens ein Untersuchungsgegenstand der (historischen) Medienwissenschaft. Auch hier ist davon auszugehen, dass sich charakteristische "Mediengezeiten" oder eben: "Medienwellen" zeigen: Mal dominiert die Pandemie den öffentlichen Diskurs, mal tritt sie in der öffentlichen Wahrnehmung zurück. 
 
 ## 2. Forschungsfrage und Operationalisierung
-Diese Fallstudie führt durch eine Digital Humanities-Forschungsprojekt, das aus medienhistorischer Perspektive den Verlauf der "Medienwellen" während der Spanischen Grippe 1918/19 – bekannt auch als "the Mother of All Pandemics" {cite:p}`taubenberger_2006` – in Berlin und Brandenburg untersucht hat. Das Forschungsprojekt wurde dabei geleitet von der folgenden Forschungsfrage: 
+Diese Fallstudie führt durch eine Digital Humanities-Forschungsprojekt, das aus medienhistorischer Perspektive den Verlauf der "Medienwellen" während der Spanischen Grippe 1918/19 – bekannt auch als "the Mother of All Pandemics" {cite:p}`taubenberger_2006` – in Berlin und Brandenburg untersucht hat. Das Forschungsprojekt wurde von der folgenden Forschungsfrage geleitet: 
 
 `````{admonition} Forschungsfrage
 :class: tip
 Lassen sich für die Spanische Grippe 1918/1919 mit Fokus auf den Berliner Raum öffentliche Aufmerksamkeitsmuster ausmachen, die eine wellenartige Verlaufsform aufweisen? 
 `````
 
-Als eine Orientierungsgröße nehmen wir testweise das Verlaufsprofil der medizinischen Welle der Spanischen Grippe, wie es bei {cite:p}`taubenberger_2006` für Großbritannien berechnet und visualisiert wurde (Fig. 2).
+Als eine Orientierungsgröße für ein wellenartiges Muster nehmen wir – in Form einer Hypothese – das Verlaufsprofil der medizinischen Welle der Spanischen Grippe, wie es bei {cite:p}`taubenberger_2006` für Großbritannien berechnet und visualisiert wurde (Fig. 2).
 
 ```{figure} ../book_images/Drei-Wellen-1918-19-UK.png
 ---
@@ -29,6 +29,9 @@ name: Drei Wellen der Spanischen Grippe im Vereinigten Königreich.
 ---
 Drei Wellen der Spanischen Grippe im Vereinigten Königreich. Quelle: {cite:p}`taubenberger_2006`
 ```
+
+Die Forschungsfrage zielt darauf, öffentliche Aufmerksamkeit und deren Veränderung über die Zeit zu messen. Um eine solche Messung möglich zu machen, muss zunächst eine Operationalisierung der Forschungsfrage erfolgen. "Operationalisierung bezeichnet den Prozess, ein Erkennungs- oder Messverfahren[24] für ein theoretisches Konzept zu entwickeln."
+
 
 `````{admonition} Operationalisierung
 :class: tip
