@@ -18,6 +18,7 @@ parts:
     - file: markdown/ocr_intro
     - file: markdown/ocr
     - file: data-input/FS_1_MVP_OCR
+    - file: markdown/ocr-quality
     - file: data-input/FS_1_MVP_OCR_Quality
   - caption: Post-Correction of the OCR Output
     chapters:
