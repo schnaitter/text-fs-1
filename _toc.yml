@@ -27,9 +27,8 @@ parts:
     chapters:
     - file: markdown/corpus-processing_intro
     - file: markdown/corpus-processing_intro-to-nlp
-    - file: markdown/spacy
     - file: nlp-enrichment/NLP-Enrichment
-    - file: markdown/text-table
+    - file: markdown/corpus-processing_resumee
   - caption: Corpus Analysis
     chapters:
     - file: markdown/analysis 
