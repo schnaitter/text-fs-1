@@ -5,25 +5,34 @@ Dass Pandemien ihre je eigenen Verlaufsprofile entwickeln, konnte Zeitgenoss:inn
 ```{figure} ../book_images/Plague-versus-Spanish-Flu.jpg
 ---
 height: 500px
-name: 
+name: Vergleichende Grafik zum Verlauf der Pest (1665) und der Spanischen Grippe (1918/19) in London
 ---
 Vergleichende Grafik zum Verlauf der Pest (1665) und der Spanischen Grippe (1918/19) in London. Quelle: {cite:p}`staveley-wadham_british_2021`
 ```
 
-Aus Perspektive einer medienwissenschaftlich informierten historischen Epidemiologie überlagern sich dabei unterschiedliche Wellen: Während ‘Fallzahlen‘ (z.B. die Anzahl der Infektionen oder die Anzahl der Todesfälle), wie sie in Fig. 1 dargestellt werden, ein in erster Linie medizinisch zu erhebendes Maß sind, sind die unterschiedliche Intensität und Extensität der öffentlichen Wahrnehmung des pandemischen Geschehens ein Untersuchungsgegenstand der (historischen) Medienwissenschaft. Auch hier ist davon auszugehen, dass sich charakteristische "Mediengezeiten" oder eben: "Medienwellen" zeigen: Mal dominiert die Pandemie den öffentlichen Diskurs, mal tritt sie in der öffentlichen Wahrnehmung zurück. Auszugehen ist zudem davon, dass das Verlaufsprofil der "Medienwellen" mit dem Verlaufsprofil der medizinischen Wellen in Zusammenhang steht. 
+Aus Perspektive einer medienwissenschaftlich informierten historischen Epidemiologie überlagern sich dabei unterschiedliche Wellen: Während ‘Fallzahlen‘ (z.B. die Anzahl der Infektionen oder die Anzahl der Todesfälle), wie sie in Fig. 1 dargestellt werden, ein in erster Linie medizinisch zu erhebendes Maß sind, sind die unterschiedliche Intensität und Extensität der öffentlichen Wahrnehmung des pandemischen Geschehens ein Untersuchungsgegenstand der (historischen) Medienwissenschaft. Auch hier ist davon auszugehen, dass sich charakteristische "Mediengezeiten" oder eben: "Medienwellen" zeigen: Mal dominiert die Pandemie den öffentlichen Diskurs, mal tritt sie in der öffentlichen Wahrnehmung zurück. 
 
 ## 2. Forschungsfrage und Operationalisierung
 Diese Fallstudie führt durch eine Digital Humanities-Forschungsprojekt, das aus medienhistorischer Perspektive den Verlauf der "Medienwellen" während der Spanischen Grippe 1918/19 – bekannt auch als "the Mother of All Pandemics" {cite:p}`taubenberger_2006` – in Berlin und Brandenburg untersucht hat. Das Forschungsprojekt wurde dabei geleitet von der folgenden Forschungsfrage: 
 
-
-```{note}
-Die Vorverarbeitung ist sprachabhängig.  
-```
-
 `````{admonition} Forschungsfrage
 :class: tip
-Lassen sich für die Spanische Grippe 1918/1919 mit Fokus auf den Berliner Raum öffentliche Aufmerksamkeitsmuster ("Medienwellen") ausmachen, die den medizinischen Verlaufsmustern ähneln?
+Lassen sich für die Spanische Grippe 1918/1919 mit Fokus auf den Berliner Raum öffentliche Aufmerksamkeitsmuster ausmachen, die eine wellenartige Verlaufsform aufweisen? 
 `````
+
+Als eine Orientierungsgröße nehmen wir testweise das Verlaufsprofil der medizinischen Welle der Spanischen Grippe, wie es bei {cite:p}`taubenberger_2006` mit Bezug auf {cite:p}`jordan_epidemic_1928` für Großbritannien berechnet und visualisiert wurde (Fig. 2).
+
+```{figure} ../book_images/Drei-Wellen-1918-19-UK.png
+---
+height: 300px
+name: Drei Wellen der Spanischen Grippe im Vereinigten Königreich.
+---
+Drei Wellen der Spanischen Grippe im Vereinigten Königreich. Quelle: {cite:p}`taubenberger_2006`
+```
+
+
+
+ist zudem davon, dass das Verlaufsprofil der "Medienwellen" mit dem Verlaufsprofil der medizinischen Wellen in Zusammenhang steht. 
 
 Für die medizinischen Verlaufsmuster liegen Daten und entsprechende Datenvisualisierungen vor, allerdings nur für Großbritannien. Wir nehmen 
 
