@@ -23,9 +23,9 @@ parts:
     - file: markdown/post_correcting_ocr
     - file: data-input/FS_1_MVP_Post_Correcting_OCR
     - file: markdown/LLM-based-correction
-  - caption: Corpus Processing – From Strings to Sentences and Tokens
+  - caption: Korpusverarbeitung – Von Strings zu Token
     chapters:
-    - file: markdown/nlp-intro
+    - file: markdown/corpus-processing_intro-to-nlp
     - file: markdown/spacy
     - file: nlp-enrichment/NLP-Enrichment
     - file: markdown/text-table
