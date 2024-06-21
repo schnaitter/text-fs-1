@@ -17,11 +17,11 @@
 6. **Archivierung und Langzeitlagerung**: Durch die Digitalisierung und OCR können wichtige Dokumente sicher archiviert und langfristig gespeichert werden, ohne dass sie an Qualität verlieren.
 
 
-### How one performs OCR 
+### What do we use to perform OCR 
 
 OCR technology is increasingly being integrated into basic software applications, such as PDF viewers. Tools like MacOS 'Preview' or Adobe Acrobat feature built-in OCR. But this is not suitable for **bulk processing of corpora**. Therefore one still needs **specialized OCR software** or programming packages to process **large quantities of images/PDFs** into machine-readable corpora.  
 
-#### What OCR tools there are
+#### Specialised OCR tools 
 
 The field of making OCR tools is developing rapidly (together with all other fields of text processing), so there are always new tools challenging the old ones. But as of 2024, the well-known products were: 
 
@@ -31,6 +31,6 @@ The field of making OCR tools is developing rapidly (together with all other fie
 * Kraken & e-Scriptorium (open source, e-Scriptorium has a desktop interface)
 * EasyOCR (open source, has a desktop interface)
 
-#### Performing OCR with Tesseract
+#### OCR in Python with PyTesseract 
 
 In this tutorial, we'll do OCR with **Tesseract**,  which is open & free. Specifically, we'll use the Python package **PyTesseract**.
