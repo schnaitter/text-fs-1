@@ -12,11 +12,14 @@ Vergleichende Grafik zum Verlauf der Pest (1665) und der Spanischen Grippe (1918
 
 Aus Perspektive einer medienwissenschaftlich informierten historischen Epidemiologie überlagern sich dabei unterschiedliche Wellen: Während ‘Fallzahlen‘ (z.B. die Anzahl der Infektionen oder die Anzahl der Todesfälle), wie sie in Fig. 1 dargestellt werden, ein in erster Linie medizinisch zu erhebendes Maß sind, sind die unterschiedliche Intensität und Extensität der öffentlichen Wahrnehmung des pandemischen Geschehens ein Untersuchungsgegenstand der (historischen) Medienwissenschaft. Auch hier ist davon auszugehen, dass sich charakteristische "Mediengezeiten" oder eben: "Medienwellen" zeigen: Mal dominiert die Pandemie den öffentlichen Diskurs, mal tritt sie in der öffentlichen Wahrnehmung zurück. Auszugehen ist dabei, dass das Verlaufsprofil der Medienwellen mit dem Verlaufsprofil der medizinischen Wellen in Zusammenhang steht. 
 
-## 2. Forschungsfrage 
+## 2. Forschungsfrage und Operationalisierung
 
-## 3. Operationalisierung der Forschungsfrage
+## 3. Vorgehen
+Grundlage ein Korpus, Text maschinenlesbar gemacht, nachebarbeit, 
 
 ## 4. 
+Wie verhält sich die Fallstudie zur durchgeführten Forschungsstudie 
+
 
 
 ```{bibliography}
