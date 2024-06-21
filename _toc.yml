@@ -1,14 +1,16 @@
 format: jb-book
 root: markdown/intro
 parts:
-  - caption: Introduction
+  - caption: Einführung
     chapters:
     - file: markdown/introduction_intro
     - file: markdown/introduction_overview
     - file: markdown/introduction_book 
-  - caption: Corpus Collection
+  - caption: Korpusaufbau
     chapters:
-    - file: markdown/text_as_digital_objects
+    - file: markdown/corpus-collection_intro    
+    - file: markdown/corpus-collection_corpora-as-research-objects.md
+    - file: markdown/corpus-collection_text_as_digital_objects
     - file: markdown/metadata
   - caption: Corpus Preparation
     chapters:
