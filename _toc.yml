@@ -33,6 +33,7 @@ parts:
     chapters:
     - file: markdown/analysis 
     - file: word_search/FS_1_MVP_Analysis_Diachronic_Frequencies_Plots
+    - file: word_search/FS_1_MVP_Analysis_KWIC
   - caption: Wrap Up
     chapters:
     - file: markdown/final-discussion
