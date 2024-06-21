@@ -34,6 +34,8 @@ parts:
     - file: markdown/analysis 
     - file: word_search/FS_1_MVP_Analysis_Diachronic_Frequencies_Plots
     - file: word_search/FS_1_MVP_Analysis_KWIC
-  - caption: Wrap Up
+  - caption: Reflexion und Resümee
     chapters:
-    - file: markdown/final-discussion
+    - file: markdown/reflection_reflection
+    - file: markdown/reflection_outlook
+    - file: markdown/reflection_resumee
