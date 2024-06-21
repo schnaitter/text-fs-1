@@ -51,9 +51,9 @@ Die Reflektion der Grenzen und Beschränkungen, die mit der eigenen Operationali
 ## 3. Struktur der Fallstudie
 Die Fallstudie vollzieht 5 Schritte: 
 
-- Im **1. Schritt** bauen wir ein Korpus aus Textobjekten für die Analyse auf, das zunächst aus PDF-Dateien besteht (siehe Kapitel "Korpusaufbau")
-- Im **2. Schritt** machen wir die Textobjekte im Korpus, die zunächst nur als Bilddateien vorliegen, mittels Optical Character Recognition (OCR) maschinenlesbar (siehe Kapitel "OCR — Vom Bild zum Text")
-- Im **3. Schritt** evaluieren wir die OCR-Ergebnisse und testen Optionen zur Nachkorrektur (siehe Kapitel "Nachkorrektur der OCR-Ergebnisse").
+- Im **1. Schritt** bauen wir ein Korpus aus Textobjekten für die Analyse auf, das zunächst aus PDF-Dateien besteht (siehe Kapitel ["Korpusaufbau"](corpus-collection_intro))
+- Im **2. Schritt** machen wir die Textobjekte im Korpus, die zunächst nur als Bilddateien vorliegen, mittels Optical Character Recognition (OCR) maschinenlesbar (siehe Kapitel ["OCR — Vom Bild zum Text"](ocr_intro))
+- Im **3. Schritt** evaluieren wir die OCR-Ergebnisse und testen Optionen zur Nachkorrektur (siehe Kapitel ["Nachkorrektur der OCR-Ergebnisse"](post-correcting_intro)).
 - Im **4. Schritt** reichern wir mithilfe von Verfahren des Natural Language Processing (NLP) die Textobjekte im Korpus mit linguistischen Informationen an. (siehe Kapitel ["Korpusverarbeitung – Von Strings zu Token"](corpus-processing_intro)).
 - Im **5. Schritt** führen wir die quantitativen Analysen auf dem Korpus durch udn visualisieren die Ergebnisse (siehe Kapitel ["Korpusanalyse"](corpus-analysis_intro)).
 
