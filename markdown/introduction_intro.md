@@ -60,6 +60,7 @@ Die Fallstudie vollzieht 5 Schritte:
 Die Fallstudie schließt mit einer Reflexion und einem Ausblick (siehe Kapitel ["Reflexion und Resümee"](reflection_reflection)) 
 
 
+## 4. Bibliographie
 ```{bibliography}
 ```
 
