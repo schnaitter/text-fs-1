@@ -1,4 +1,4 @@
-# Einführung in die Fallstudie
+# Einführung in die Fallstudie: Fragestellung und Operationalisierung
 ## 1. Heranführung an die Fragestellung
 Dass Pandemien ihre je eigenen Verlaufsprofile entwickeln, konnte Zeitgenoss:innen vor wenigen Jahren am Verlauf der COVID19-Pandemie miterleben. Schnell wurde die Rede von den "Wellen" der Corona-Pandemie sprichwörtlich. Auch während der Spanischen Grippe wurde bereits von "Wellen" bzw. von "Waves" gesprochen und diese spezifische Verlaufsform graphisch dokumentiert (siehe Fig. 1). 
 
