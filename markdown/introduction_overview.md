@@ -1,1 +1,0 @@
-# Übersicht über die Fallstudie
