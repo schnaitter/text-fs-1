@@ -1,3 +1,4 @@
+(corpus-collection_corpora-as-research-objects)=
 # Korpora als Forschungsobjekte der Digital Humanities
 
 Für die Forschung in den textbasierten Digital Humanities hat sich das Korpus als das wichtigste epistemische Objekt herauskristallisiert. Korpora lassen sich dabei vereinfacht verstehen als 
