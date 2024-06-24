@@ -1,2 +1,3 @@
 (corpus-collection_intro)=
-# Einführung in den Korpusaufbau
+# Einführung
+Nachdem im vorherigen Kapitel "
