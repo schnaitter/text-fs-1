@@ -8,7 +8,7 @@ In der digitalen Ära sind Texte nicht mehr nur auf Papier zu finden, sondern ne
 - XML/TEI
 - CSV
 
-## 1. Bilddigitalisate von Text**
+## 1. Bilddigitalisate von Text
 
 **Charakteristika:**
 
