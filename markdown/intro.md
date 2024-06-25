@@ -1,3 +1,4 @@
+(intro)=
 # Quantitative Analyse der Medienwellen der Spanischen Grippe (1918/19). Eine Fallstudie
 
 ```{figure} ../book_images/grippeocr.gif
