@@ -12,9 +12,9 @@ In der digitalen Ära sind Texte nicht mehr nur auf Papier zu finden, sondern ne
 
 **Charakteristika:**
 
-- **Repräsentation: **Bilddigitalisate sind digitale Abbildungen von physischen Texten. Sie bewahren die visuelle Gestalt der Originaldokumente, einschließlich Layout, Schriftarten und Illustrationen.
-- **Formate: **Die gängigsten Formate sind PDF, PNG und JPG.
-- **Nutzung: **Diese Form ist besonders nützlich für die Archivierung und den Zugang zu historischen Dokumenten, da sie eine authentische visuelle Wiedergabe des Originals ermöglicht.
+- **Repräsentation:** Bilddigitalisate sind digitale Abbildungen von physischen Texten. Sie bewahren die visuelle Gestalt der Originaldokumente, einschließlich Layout, Schriftarten und Illustrationen.
+- **Formate:** Die gängigsten Formate sind PDF, PNG und JPG.
+- **Nutzung:** Diese Form ist besonders nützlich für die Archivierung und den Zugang zu historischen Dokumenten, da sie eine authentische visuelle Wiedergabe des Originals ermöglicht.
 - **Einschränkungen:** Der Textinhalt ist in diesen Formaten nicht direkt durchsuchbar oder maschinenlesbar, es sei denn, es wird eine optische Zeichenerkennung (OCR) angewendet.
 
 **Beispiel:** Ein gescanntes Manuskript eines historischen Briefes im PNG-Format.
@@ -23,9 +23,9 @@ In der digitalen Ära sind Texte nicht mehr nur auf Papier zu finden, sondern ne
 
 **Charakteristika:**
 
-- **Repräsentation: **Plain Text ist eine einfache, unformatierte Textdatei, die nur den reinen Text ohne jegliche Stilelemente oder Metadaten enthält.
+- **Repräsentation:** Plain Text ist eine einfache, unformatierte Textdatei, die nur den reinen Text ohne jegliche Stilelemente oder Metadaten enthält.
 - **Formate:** Das gängigste Format ist TXT.
-- **Nutzung: **Plain Text ist ideal für einfache Textanalysen und die Datenverarbeitung, da er leicht zu bearbeiten und in verschiedene Softwareumgebungen zu importieren ist.
+- **Nutzung:** Plain Text ist ideal für einfache Textanalysen und die Datenverarbeitung, da er leicht zu bearbeiten und in verschiedene Softwareumgebungen zu importieren ist.
 - **Einschränkungen:** Es fehlen strukturelle und semantische Informationen, die für komplexere Analysen oder Darstellungen notwendig sind.
 
 **Beispiel:** Ein literarischer Text, der als reine Textdatei abgespeichert ist.
@@ -34,7 +34,7 @@ In der digitalen Ära sind Texte nicht mehr nur auf Papier zu finden, sondern ne
 
 **Charakteristika:**
 
-- **Repräsentation: **XML (Extensible Markup Language) ermöglicht eine strukturierte Darstellung von Texten mit verschachtelten Tags, die die semantische Struktur und Metadaten enthalten. TEI (Text Encoding Initiative) ist ein spezieller XML-Standard für die Kodierung von literarischen und linguistischen Texten.
+- **Repräsentation:** XML (Extensible Markup Language) ermöglicht eine strukturierte Darstellung von Texten mit verschachtelten Tags, die die semantische Struktur und Metadaten enthalten. TEI (Text Encoding Initiative) ist ein spezieller XML-Standard für die Kodierung von literarischen und linguistischen Texten.
 - **Formate:** Dateien im XML-Format, oft mit der Endung .xml.
 - **Nutzung:** XML/TEI wird häufig in den Geisteswissenschaften verwendet, um komplexe Textstrukturen und Annotationen zu kodieren, wie z.B. Kapitelüberschriften, Fußnoten, Zitate und sprachliche Besonderheiten.
 - 	**Einschränkungen:** Die Erstellung und Verarbeitung von XML/TEI erfordert technisches Wissen und entsprechende Werkzeuge, was den Einstieg erschwert.
