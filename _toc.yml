@@ -6,38 +6,38 @@ parts:
     - file: markdown/introduction_intro
     - file: markdown/introduction_learning-outcomes
     - file: markdown/introduction_requirements
-  - caption: Fragestellung und Operationalisierung
+  - caption: Fragestellung und Operationalisierung. Einführung in die Fallstudie
     chapters:
     - file: markdown/research-question_intro
     - file: markdown/research-question_research-question
     - file: markdown/research-question_operationalization
-  - caption: Korpusaufbau
+  - caption: Korpusaufbau. Auswählen, sammeln, dokumentieren
     chapters:
     - file: markdown/corpus-collection_intro    
     - file: markdown/corpus-collection_corpora-as-research-objects.md
     - file: markdown/corpus-collection_text_as_digital_objects
     - file: markdown/corpus-collection_building-our-corpus.md
     - file: markdown/corpus-collection_summary.md
-  - caption: OCR — Vom Bild zum Text
+  - caption: OCR. Von Bild zu Text
     chapters:
     - file: markdown/ocr_intro
     - file: markdown/ocr
     - file: data-input/FS_1_MVP_OCR
     - file: markdown/ocr-quality
     - file: data-input/FS_1_MVP_OCR_Quality
-  - caption: Post-Correction of the OCR Output
+  - caption: OCR-Nachbereitung. Manuell, automatisch, LLMs
     chapters:
     - file: markdown/post-correcting_intro
     - file: markdown/post_correcting_ocr
     - file: data-input/FS_1_MVP_Post_Correcting_OCR
     - file: markdown/LLM-based-correction
-  - caption: Korpusverarbeitung – Von Strings zu Token
+  - caption: Korpusverarbeitung. Von Strings zu Token
     chapters:
     - file: markdown/corpus-processing_intro
     - file: markdown/corpus-processing_intro-to-nlp
     - file: nlp-enrichment/NLP-Enrichment
     - file: markdown/corpus-processing_resumee
-  - caption: Korpusanalyse
+  - caption: Korpusanalyse. Von Häufigkeiten zu Diagrammen
     chapters:
     - file: markdown/corpus-analysis_intro
     - file: markdown/corpus-analysis_analysis
