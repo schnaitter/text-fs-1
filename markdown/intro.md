@@ -1,5 +1,11 @@
-# "Die Grippe wütet weiter"
-## Quantitative Analyse der Medienwellen der Spanischen Grippe (1918/19). Eine Fallstudie
+# Quantitative Analyse der Medienwellen der Spanischen Grippe (1918/19). Eine Fallstudie
+
+```{figure} ../book_images/grippeocr.gif
+---
+height:
+name: Zeitungssnippet mit simuliertem OCR-Overlay
+---
+```
 
 Die vorliegende Fallstudie bereitet – in Form eines "Jupyter Books" – den Prozess und die Ergebnisse eines Forschungsprojekts aus den Digital Humanities didaktisch auf. Schritt für Schritt wird nachvollziehbar, 
 
