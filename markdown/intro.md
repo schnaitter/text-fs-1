@@ -9,7 +9,7 @@ Die vorliegende Fallstudie bereitet – in Form eines "Jupyter Books" – den Pr
 
 Anhand von historischen Tageszeitungen wird dabei eine Frage aus dem Feld der Digital History nachgegangen: **Welchen quantitativen Mustern folgte die Berichterstattung über die Spanische Grippe in den Jahren 1918/1919?**
 
-```{figure} ../book_images/flow-chart_intro.png
+```{figure} ../book_images/fflow-chart.gif
 ---
 height:
 name: Flussdiagramm der Fallstudie
