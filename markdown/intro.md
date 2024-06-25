@@ -1,7 +1,25 @@
-# "Die Grippe wütet weiter". Quantitative Analyse der Medienwellen der Spanischen Grippe (1918/19). 
-## Eine Fallstudie
+# "Die Grippe wütet weiter"
+## Quantitative Analyse der Medienwellen der Spanischen Grippe (1918/19). Eine Fallstudie
 
-In this case study we explore newspapers published in Berlin / Brandenburg from 1918 to 1920 in respect to their reporting on the spanish flu. 
+Die vorliegende Fallstudie bereitet – in Form eines "Jupyter Books" – den Prozess und die Ergebnisse eines Forschungsprojekts aus den Digital Humanities didaktisch auf. Schritt für Schritt wird nachvollziehbar, 
+
+- wie eine **Forschungsfrage** entwickelt und operationalisiert wird, 
+- ein entsprechendes **Korpus** aufgebaut, bereinigt und angereichert wird,
+- um schließlich quantitative **Analysen** auf diesem Korpus durchzuführen.
+
+Anhand von historischen Tageszeitungen wird dabei eine Frage aus dem Feld der Digital History nachgegangen: **Welchen quantitativen Mustern folgte die Berichterstattung über die Spanische Grippe in den Jahren 1918/1919?**
+
+```{figure} ../book_images/flow-chart_corpus-collection.png
+---
+height: 150px
+name: Flussdiagramm der Fallstudie
+---
+Flussdiagramm der Fallstudie. Wir befinden uns nun im zweiten Arbeitspaket.
+```
+
+
+Die Fallstudie setzt sich aus erläuternden Texten und ausführbarem Code zusammen. Der Code liegt in Form von "Jupyter Notebooks" vor und kann sowohl hier im "Jupyter Book" als auch auf Diensten wie "Binder" oder "Collab", schließlich auch lokal auf dem eigenen Computer ausgeführt werden. 
+ 
 
 ## einarbeiten: 
 
