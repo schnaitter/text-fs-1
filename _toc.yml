@@ -1,12 +1,16 @@
 format: jb-book
 root: markdown/intro
 parts:
-  - caption: Fragestellung und Operationalisierung. Einführung in die Fallstudie
-    chapters:
+  - caption: Präambel
+      chapters:
     - file: markdown/introduction_intro
-    - file: markdown/introduction_research-question
     - file: markdown/introduction_learning-outcomes
-    - file: markdown/introduction_book 
+    - file: markdown/introduction_requirements
+  - caption: Fragestellung und Operationalisierung
+    chapters:
+    - file: markdown/research-question_intro
+    - file: markdown/research-question_research-question
+    - file: markdown/research-question_operationalization
   - caption: Korpusaufbau
     chapters:
     - file: markdown/corpus-collection_intro    
