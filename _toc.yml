@@ -3,7 +3,6 @@ root: markdown/intro
 parts:
   - caption: Präambel
     chapters:
-    - file: markdown/introduction_intro
     - file: markdown/introduction_learning-outcomes
     - file: markdown/introduction_requirements
   - caption: Fragestellung und Operationalisierung. Einführung in die Fallstudie
