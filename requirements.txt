@@ -13,6 +13,7 @@ Babel==2.14.0
 beautifulsoup4==4.12.3
 bleach==6.1.0
 blis==0.7.11
+bokeh==3.4.1
 bs4==0.0.2
 catalogue==2.0.10
 certifi==2024.2.2
@@ -86,6 +87,7 @@ overrides==7.7.0
 packaging==24.0
 pandas==2.2.1
 pandocfilters==1.5.1
+panel==1.4.4
 parso==0.8.3
 pdf2image==1.17.0
 pexpect==4.9.0
