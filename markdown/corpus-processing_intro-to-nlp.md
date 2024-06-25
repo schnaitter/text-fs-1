@@ -26,6 +26,8 @@ In tokenisierter und lemmatisierter Form:
 `````
 
 ## 3. NLP mit Python 
+
+### 3.1 nltk und spaCy 
 In Programmiersprachen gibt es Bibliotheken, die Methoden z.B. zur Textverarbeitung, bündeln. Die Bibliotheken können installiert, in den Programmcode geladen und dann angewendet werden.
 Für Python gibt es verschiedene Bibliotheken, mit denen die Verarbeitung von Texten mittels NLP möglich ist. Am weitesten vebreitet sind die Bibliotheken [spaCy](https://spacy.io) und [nltk](https://www.nltk.org/), die in Tabelle {ref}`cmp-spacy-nltk` verglichen werden.
 
@@ -41,7 +43,15 @@ Für Python gibt es verschiedene Bibliotheken, mit denen die Verarbeitung von Te
 Die verschiedenen NLP-Methoden bauen teilweise aufeinander auf. Grundlegend wird ein Text zuerst tokenisiert, dann folgt PoS-Tagging und die Lemmatisierung. Diese Abfolge der einzelnen Prozess wird im NLP häufig mit der Metapher einer Pipeline beschrieben. 
 `````
 
+### NLP mit spaCy 
 Da die Vorverarbeitung der Texte keinerlei spezialisierter NLP-Methoden bedarf und auf Grund der leichten Benutzbarkeit sowie der Geschwindigkeit benutzen wir spaCy für die Tokenisierung, Lemmatisierung des Textkorpus. spaCy unterschiedlicher Methoden für die Vorverarbeitung bereit, die meisten basieren auf maschinellem Lernen. Da die Vorverarbeitun sprachabhängig ist, stellt spaCy für die unterstützen Sprachen (über 20) verschiedene Analyse-Modelle zur Verfügung. Eine Übersicht über die von spaCy unterstützen Sprachen gibt es [hier](https://spacy.io/models).
+Die zur Verfügung gestellte Modelle unterscheiden sich in der Geschwindigkeit und in der Akkuratheit der Annotation. Wir verwenden ein Modell (`de_dep_news_trf`), das am akkuratesten annotiert (perfekte Akkuratheit (1.0) für die Tokenisierung und nahezu perfekt für die Lemmatisierung (0.99)), aber am längsten für die Annotation braucht.
+
+`````{admonition} Leistung von spaCy auf unserem Korpus 
+:class: warning
+Die Modelle in spaCy sind auf zeitgenössische Zeitungs- und Medientexte ausgelegt, die eine hohe Qualität haben. Historische Sprachverwendung sowie und vor allem eine geringe Datenqualität führen zu einer weit geringeren Annotationsleistung.  
+
+`````
 
 ## 4. Zusammenfassung und nächste Schritte
 Die NLP-Methoden, die für die Vorverarbeitung von Texten notwendig sind, wurden erklärt. spaCy wurde als Bibliothek festgelegt, mit der die Methoden auf die Textdaten angewendet werden. Im nächsten Schritt werden die Texte, die als txt-Dateien vorliegen, mittels spaCy annotiert und die Annotationen werden in Tabellen (csv-Dateien) gespeichert. 
