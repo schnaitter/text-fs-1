@@ -11,7 +11,7 @@ Anhand von historischen Tageszeitungen wird dabei eine Frage aus dem Feld der Di
 
 ```{figure} ../book_images/flow-chart_intro.png
 ---
-height: 150px
+height:
 name: Flussdiagramm der Fallstudie
 ---
 Flussdiagramm der Fallstudie, die sich aus sechs Arbeitspaketen zusammensetzt.
