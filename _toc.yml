@@ -2,7 +2,7 @@ format: jb-book
 root: markdown/intro
 parts:
   - caption: Präambel
-      chapters:
+    chapters:
     - file: markdown/introduction_intro
     - file: markdown/introduction_learning-outcomes
     - file: markdown/introduction_requirements
