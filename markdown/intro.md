@@ -2,7 +2,7 @@
 
 ```{figure} ../book_images/grippeocr.gif
 ---
-height:
+height: 200px
 name: Zeitungssnippet mit simuliertem OCR-Overlay
 ---
 ```
