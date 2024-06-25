@@ -33,5 +33,6 @@ Drei Wellen der Spanischen Grippe im Vereinigten Königreich. Quelle: {cite:p}`t
 
 ## 3. Bibliographie
 ```{bibliography}
+:filter: docname in docnames
 ```
 
