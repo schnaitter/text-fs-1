@@ -1,1 +1,1 @@
-# Was kann ich in dieser Fallstudie lernen?
+# Lernziele dieser Fallstudie
