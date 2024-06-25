@@ -13,7 +13,7 @@ Vergleichende Grafik zum Verlauf der Pest (1665) und der Spanischen Grippe (1918
 
 Aus Perspektive einer medienwissenschaftlich informierten historischen Epidemiologie überlagern sich dabei unterschiedliche Wellen: Während ‘Fallzahlen‘ (z.B. die Anzahl der Infektionen oder die Anzahl der Todesfälle), wie sie in Fig. 1 dargestellt werden, ein in erster Linie medizinisch zu erhebendes Maß sind, sind die unterschiedliche Intensität und Extensität der öffentlichen Wahrnehmung des pandemischen Geschehens ein Untersuchungsgegenstand der (historischen) Medienwissenschaft. Auch hier ist davon auszugehen, dass sich charakteristische "Mediengezeiten" oder eben: "Medienwellen" zeigen: Mal dominiert die Pandemie den öffentlichen Diskurs, mal tritt sie in der öffentlichen Wahrnehmung zurück. 
 
-## 2. Forschungsfrage und Operationalisierung
+## 2. Die Forschungsfrage
 Diese Fallstudie führt durch eine Digital Humanities-Forschungsprojekt, das aus medienhistorischer Perspektive den Verlauf der "Medienwellen" während der Spanischen Grippe 1918/19 – bekannt auch als "the Mother of All Pandemics" {cite:p}`taubenberger_2006` – in Berlin und Brandenburg untersucht hat. Das Forschungsprojekt wurde von der folgenden Forschungsfrage geleitet: 
 
 `````{admonition} Forschungsfrage
@@ -31,37 +31,7 @@ name: Drei Wellen der Spanischen Grippe im Vereinigten Königreich.
 Drei Wellen der Spanischen Grippe im Vereinigten Königreich. Quelle: {cite:p}`taubenberger_2006`
 ```
 
-Die Forschungsfrage zielt darauf, öffentliche Aufmerksamkeit und deren Veränderung über die Zeit zu messen. Um eine solche Messung möglich zu machen, muss zunächst eine Operationalisierung der Forschungsfrage erfolgen. "Operationalisierung bezeichnet den Prozess, ein Erkennungs- oder Messverfahren für ein theoretisches Konzept zu entwickeln." {cite:p}`krautter_operationalisierung_2023`.
-
-Für die Operationalisierung unserer Forschungsfrage müssen insbesondere zwei Fragen adressiert werden:
-
-- Was ist öffentlichen Aufmerksamkeit im Berliner Raum? 
-- Wie kann diese gemessen werden? 
-
-Entlang dieser beiden Fragen kommen wir zur folgenden Operationalisierung:
-
-`````{admonition} Operationalisierung
-:class: tip
-Als öffentliche Aufmerksamkeit im Berliner Raum sollen in unserer Fallstudie die Texte in Berliner Tageszeitungen gelten. Wir messen diese öffentliche Aufmerksamkeit, indem wir die Häufigkeit von Wörtern ermitteln. Eine besonders hohe öffentliche Aufmerksamkeit für die spanische Grippe in einem bestimmten Zeitraum läge demnach dann vor, wenn wir in den Zeitungen für diesen Zeitraum besonders viele Wörter nachweisen können, die direkt oder indirekt auf die spanische Grippe verweisen. 
-`````
-
-Diese Operationalisierung ist, wie jede Operationalisierung in den Digital Humanities, diskutabel. Sie folgt dabei einem quantitativen Methodenparadigma. Und sie wählt mit der Worthäufigkeit einen einfachen Indikator für das zu messende Phänomen. Die Operationalisierung wird zudem weitere Einschränkungen erfahren müssen, etwa was das Korpus der Analysen betrifft, das mit der Formulierung "Texte in Berliner Tageszeitungen" derzeit sowohl zu unscharf angegeben ist als auch viel zu groß wäre. 
-
-Die Reflektion der Grenzen und Beschränkungen, die mit der eigenen Operationalisierung einhergehen, ist essentieller Bestandteil von Digital Humanities-Projekten. Wir werden in der abschließenden [Reflexion](reflection_reflection) darauf zurückkommen. 
-
-## 3. Struktur der Fallstudie
-Die Fallstudie vollzieht 5 Schritte: 
-
-- Im **1. Schritt** bauen wir ein Korpus aus Textobjekten für die Analyse auf, das zunächst aus PDF-Dateien besteht (siehe Kapitel ["Korpusaufbau"](corpus-collection_intro))
-- Im **2. Schritt** machen wir die Textobjekte im Korpus, die zunächst nur als Bilddateien vorliegen, mittels Optical Character Recognition (OCR) maschinenlesbar (siehe Kapitel ["OCR — Vom Bild zum Text"](ocr_intro))
-- Im **3. Schritt** evaluieren wir die OCR-Ergebnisse und testen Optionen zur Nachkorrektur (siehe Kapitel ["Nachkorrektur der OCR-Ergebnisse"](post-correcting_intro)).
-- Im **4. Schritt** reichern wir mithilfe von Verfahren des Natural Language Processing (NLP) die Textobjekte im Korpus mit linguistischen Informationen an. (siehe Kapitel ["Korpusverarbeitung – Von Strings zu Token"](corpus-processing_intro)).
-- Im **5. Schritt** führen wir die quantitativen Analysen auf dem Korpus durch udn visualisieren die Ergebnisse (siehe Kapitel ["Korpusanalyse"](corpus-analysis_intro)).
-
-Die Fallstudie schließt mit einer Reflexion und einem Ausblick (siehe Kapitel ["Reflexion und Resümee"](reflection_reflection)) 
-
-
-## 4. Bibliographie
+## 3. Bibliographie
 ```{bibliography}
 ```
 
