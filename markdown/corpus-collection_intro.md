@@ -4,7 +4,7 @@ Nachdem im [vorherigen Kapitel](introduction_intro) die **Fragestellung** dieser
 
 ```{figure} ../book_images/flow-chart_corpus-collection.png
 ---
-height: 150px
+height:
 name: Flussdiagramm der Fallstudie
 ---
 Flussdiagramm der Fallstudie. Wir befinden uns nun im zweiten Arbeitspaket.
