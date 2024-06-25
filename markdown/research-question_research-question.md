@@ -5,7 +5,7 @@ Dass Pandemien ihre je eigenen Verlaufsprofile entwickeln, konnte Zeitgenoss:inn
 
 ```{figure} ../book_images/Plague-versus-Spanish-Flu.jpg
 ---
-height: 500px
+height: 300px
 name: Vergleichende Grafik zum Verlauf der Pest (1665) und der Spanischen Grippe (1918/19) in London
 ---
 Vergleichende Grafik zum Verlauf der Pest (1665) und der Spanischen Grippe (1918/19) in London. Quelle: {cite:p}`staveley-wadham_british_2021`
@@ -21,7 +21,7 @@ Diese Fallstudie führt durch eine Digital Humanities-Forschungsprojekt, das aus
 Lassen sich für die Spanische Grippe 1918/1919 mit Fokus auf den Berliner Raum Muster in der öffentlichen Aufmerksamkeit ausmachen, die eine wellenartige Verlaufsform aufweisen? 
 `````
 
-Als eine Orientierungsgröße für ein wellenartiges Muster nehmen wir – in Form einer Hypothese – das Verlaufsprofil der medizinischen Welle der Spanischen Grippe, wie es bei {cite:p}`taubenberger_2006` für Großbritannien berechnet und visualisiert wurde (Fig. 2).
+Als eine Orientierungsgröße für ein wellenartiges Muster nehmen wir – in Form einer Hypothese – das Verlaufsprofil der medizinischen Welle der Spanischen Grippe, wie es für Großbritannien berechnet und visualisiert wurde (Fig. 3).
 
 ```{figure} ../book_images/Drei-Wellen-1918-19-UK.png
 ---
