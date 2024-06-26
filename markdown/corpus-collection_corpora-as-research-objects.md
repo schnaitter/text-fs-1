@@ -42,3 +42,16 @@ Eine Sammlung, deren Auswahl nur durch die Verfügbarkeit von Daten geleitet wir
 
 ## Zusammenfassung 
 Mit welcher Strategie und nach welchen Kriterien ein Korpus aufgebaut wird, entscheidet darüber, welche Forschungsfragen sich mit ihm überhaupt sinnvoll und belastbar beantworten lassen. Mit dem Korpusaufbau wird dabei das epistemische Objekt der Forschung konstruiert. Entsprechend reflektiert sollte man bei diesem Vorgang vorgehen. Darüber hinaus ist eine Reflektion auf die korpusbedingten Grenzen der Analyseergebnisse unabdingbarer Bestandteil von Digital Humanities-Forschungsprojekten.
+
+
+
+`````{admonition} Weiterführende Links
+:class: tip
+- [Artikel "Korpusbildung"](https://fortext.net/routinen/methoden/korpusbildung),  mit Fokus auf literaturwissenschafliche Korpora 
+
+
+ Sandra Bläß (2020): „Korpusbildung“. In: forTEXT. Literatur digital erforschen. URL: https://fortext.net/routinen/methoden/korpusbildung  [Zugriff: 26. Juni 2024]. 
+`````
+
+
+
