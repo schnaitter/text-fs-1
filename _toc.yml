@@ -15,6 +15,7 @@ parts:
     - file: markdown/corpus-collection_intro    
     - file: markdown/corpus-collection_corpora-as-research-objects.md
     - file: markdown/corpus-collection_text_as_digital_objects
+    - file: markdown/corpus-collection_metadata
     - file: markdown/corpus-collection_building-our-corpus.md
     - file: markdown/corpus-collection_summary.md
   - caption: OCR. Von Bild zu Text
