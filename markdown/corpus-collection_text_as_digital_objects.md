@@ -1,7 +1,7 @@
 (corpus-collection_text_as_digital_objects)=
 # Elemente von Korpora: Texte als digitale Objekte
 
-In der digitalen Ära sind Texte nicht mehr nur auf Papier zu finden, sondern nehmen vielfältige Formen an, die jeweils spezifische Eigenschaften und Einsatzmöglichkeiten aufweisen. In diesem Abschnitt werden vier weit verbreitete Erscheinungsformen digitaler Texte vorgestellt: 
+Texte können digital auf sehr unterschiedliche Weisen gespeichert, prozessiert und repräsentiert werden. Die vielfältige Formen von Text im Digitalen weisen dabei jeweils spezifische Eigenschaften und Einsatzmöglichkeiten auf. In diesem Abschnitt werden vier weit verbreitete Erscheinungsformen digitaler Texte vorgestellt: 
 
 - Bilddigitalisate von Text (z.B. PDF, PNG, JPG, TIFF)
 - Reiner Text, auch "Plain Text" (TXT)
@@ -56,7 +56,7 @@ Die Zahl der Grippefälle ist in den letzten beiden Tagen auch in Groß-Berlin n
 
 **Beispiel:** 
 
-`
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -83,7 +83,7 @@ Die Zahl der Grippefälle ist in den letzten beiden Tagen auch in Groß-Berlin n
       </body>
   </text>
 </TEI>
-`
+```
 <center>*Beispiel für eine XML-Kodierung nach TEI-Standard. Im Kopfbereich der Datei steht der `<teiHeader>` mit Metadaten, es folgt das `<text>`-Element, in dem der Text mit Strukturinformationen (z.B. `<head>` für Überschrift) gesoeichert wird*</center>
 
 ## CSV für annotierte Texte
@@ -96,7 +96,7 @@ Die Zahl der Grippefälle ist in den letzten beiden Tagen auch in Groß-Berlin n
 - **Einschränkungen:** CSV-Dateien sind weniger flexibel für komplexe Textstrukturen und eignen sich besser für flache, tabellarische Daten.
 
 **Beispiel:** 
-`
+```
 ID,TOKEN,LEMMA,POS
 1,Die,die,DET
 2,Grippe,Grippe,NOUN
@@ -109,7 +109,7 @@ ID,TOKEN,LEMMA,POS
 10,in,in,ADP
 11,Berlin,Berlin,PROPN
 12,.,.,PUNCT
-`
+```
 <center>*CSV-Datei, bei der in der ersten Zeile ein Tabellenkopf steht, in den dann folgenden Zeilen jeweils zunächst eine durchzählende ID, dann ein Wort, gefolgt von  weiteren linguistischen Informationen: der Grundform ("Lemma") und der Wortart ("POS", "Part of Speech")*</center>
 
 
@@ -126,9 +126,7 @@ ID,TOKEN,LEMMA,POS
 | 10  | in       | in      | ADP   |
 | 11  | Berlin   | Berlin  | PROPN |
 | 12  | .        | .       | PUNCT |
-
 <center>*CSV-Datei lassen sich, wie hier zu sehen, mit üblichen Programmen wie Open Office oder MS Office auch als Tabellen darstellen*</center>
-
 
 
 ## Zusammenfassung
