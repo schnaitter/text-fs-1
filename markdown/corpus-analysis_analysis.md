@@ -6,20 +6,44 @@ Wir gehen von folgender Forschungsfrage aus:
 :class: tip
 Lassen sich für die Spanische Grippe 1918/1919 mit Fokus auf den Berliner Raum Muster in der öffentlichen Aufmerksamkeit ausmachen, die eine wellenartige Verlaufsform aufweisen? 
 `````
-Um diese mit quantitativen Methoden zu bearbeiten, wurde die Forschungsfrage zunächstwie folgt **operationalisiert**: 
+Um diese mit quantitativen Methoden zu bearbeiten, wurde die Forschungsfrage zunächst wie folgt **operationalisiert**: 
 1. Die **öffentliche Aufmerksamkeit im Berliner Raum** wird durch ein Korpus von zwei Berliner Zeitungen gefasst.
-2. Die **Spanische Grippe** wird durch ein manuelle erstelltes semantisches Feld, das sich um das Wort "Grippe" kreist, untersucht. 
+2. Die **Spanische Grippe** wird durch ein semantisches Feld, das sich um das Wort "Grippe" kreist, untersucht. 
 3. Der **Verlauf** der öffentliche Aufmerksamkeit wird über die sich entwickelte Häufigkeit des Wortfelds untersucht. Eine erhöhte Häufigkeit deutet auf eine erhöhte Aufmerksamkeit hin und vice versa. 
 
 
-## 2. Erstellen eines semantische Felds
+## 2. Das semantische Feld der Spanischen Grippe
 
-## 2. Häufigkeit als Analysemethode 
+### 2.1 Erläuterung semantisches Feld
+Das Ziel der Analyse ist es, zu quantifizieren, wie viel über die Spanische Grippe berichtet wird. Dafür sollen möglichst alle und nur die Textstellen erfasst werden, in denen die Spanische Grippe erwähnt wird. Eine Erwähnung liegt dann vor, wenn ein Wort vorkommt, das mit der Spanischen Grippe im Zusammenhang steht. Die Sammlung dieser Wörter nennen wir **Semantisches Feld**. Da die Wörter losgelöst von ihrem Kontext analysiert werden, sollten sie so gewählt sein, dass sie sich auf die Spanische Grippe und nur auf diese beziehen.
 
-### 2.1 Warum die Häufigkeit analysieren?
+### 2.2 Erstellunfg des semantischen Felds
+Da [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) sehr gut dazu in der Lage sind, semantisch ähnliche Wörter zu erzeugen, haben wir das semantische Feld mit Hilfe des Chatbots [ChatGPT](https://openai.com/index/chatgpt/) erstellt.
+
+```{admonition} Spezifikation zur ChatGPT-Nutzung
+:class: tip
+**Verwendete ChatGPT-Version**: 1.2024.157 (1718053765), Modell: ChatGPT 4o
+
+**Prompt**:
+
+Du bist eine Digital Humanities-Forscherin mit Expertise im Bereich der Computerlinguistik. Du verfügst über umfassende Kenntnisse im Bereich der Semantik und des Text und Data Mining.
+
+Bitte erstelle ein semantisches Feld zum Thema "Grippe". Die Sprache ist deutsch. Bedingungen für die Wörter des semantischen Feldes sind. 
+* die Wörter sollen Substantive sein;
+* Komposita sind erlaubt;:
+* die Wörter sollen sich am historischen Sprachgebrauch der Jahre 1918 und 1919 orientieren;
+* die Wörter sollen spezifisch für den Kontext "Grippe" sein;
+* die Wörter sollen nicht mehrdeutig sein, also noch Möglichkeit nicht in anderen semantischen Kontext vorkommen;
+```
+Als Resultat haben wir eine Liste mit 25 Nomen erhalten. 
+
+
+## 3. Häufigkeit als Analysemethode 
+
+### 3.1 Warum die Häufigkeit analysieren?
 Die Analyse von Worthäufigkeiten ist sowohl in der Korouslinugistik als auch in den Digital Humanities [p. 73] weit verbreitet. Für die Analyse von Inhaltswörtern (Nomen, Verben, Adjektive, Adverben) wird angenommen, dass ein hohes Vorkommen mit der Wichtigkeit der Wörter den Text in Frage korreliert. Besonders bei einer vergleichenden Analyse (etwa von zwei Zeitungen oder eine Thema über Zeit) ist die Häufigkeitsnanalyse sinnvoll, da der Vergleich so quantisierbar wird. 
 
-### 2.2 Häufigkeit von Grippe
+### 3.2 Häufigkeit von Grippe
 Um die Wichtigkeit eines Themenfelds wie der Spanischen Grippe zu untersuchen, bietet es sich an, nicht nur das Vorkommen eines einzelnen Wortes wie "Grippe" zu untersuchen, sondern andere, mit Grippe im Zusammenhang stehende Wörter zu sammeln, im Sinne eines semantischen Felds. Die Wörter werden in der Grundform angegeben, sodass sie mit den Lemmata im Text verglichen werden können.
 Für jedes Wort wird dann die Häufigkeit errechnet, diese nennt sich **absolute Häufigkeit**. Die absoluten Häufigkeiten werden addiert, sodass sich pro Text eine Zahl ergibt, die die Summe aller Häufigkeiten der Grippenbezogenen Wörter angibt.
 
@@ -27,7 +51,7 @@ Für jedes Wort wird dann die Häufigkeit errechnet, diese nennt sich **absolute
 :class: tip
 1. **Text**: Die Grippe wütet weiter. Zunahme der schweren Fälle in Berlin. Die Zahl der Grippefälle ist in den letzten Tagen auch in Groß-Berlin noch erheblich gestiegen. Die Warenhäuser und sonstigen großen Geschäfte, die Kriegs- und die privaten Betriebe klagen, daß übermäßig viele Angestellte sich haben krank melden müssen und auch bei der Post und bei der Straßenbahn ist der Prozentsatz der Grippekranken deutlich gestiegen. 
 2. **Lemmatisierter Text**: der Grippe wüten weiter -- Zunahme der schwer Fall in Berlin -- der Zahl der Grippefall sein in der letzter Tag auch in Groß-Berlin noch erheblich steigen -- der Warenhaus und sonstig groß Geschäft -- der Krieg und der privat Betrieb klagen -- daß übermäßig vieler angestellter sich haben krank melden müssen und auch bei der Post und bei der Straßenbahn sein der Prozentsatz der Grippekranke deutlich steigen --
-3. **Semantisches Feld** "Grippe": Grippe, Grippefall, Grippekranke, krank
+3. **Semantisches Feld** "Grippe": Grippe, Grippefall, Grippekranke
 4. **Häufigkeitsanalyse**: 
 
 ```{table}
@@ -37,13 +61,12 @@ Für jedes Wort wird dann die Häufigkeit errechnet, diese nennt sich **absolute
 | Grippe    | 1   |
 | Grippefall | 1 |
 | Grippekranke  | 1 |
-| krank | 1 |
 ```
-5. **Summierte Häufigkeit**: 4
+5. **Summierte Häufigkeit**: 3
 
 `````
 
-### 2.3 Vergleichbarkeit von Häufigkeiten
+### 3.3 Vergleichbarkeit von Häufigkeiten
 Für die Vergleichbarkeit von Worthäufigkeiten in Texten ist wichtig, dass die Texte auch ansonsten vergleichbar sind. Stammen die Texte z. B. aus unterschiedlichen Zeiträumen müssten ggf. zeitspezifische semantische Felder erstellt werden, um für den Sprachwandel Rechnung zu tragen. Auch sollten die Texte eine ähnliche Länge haben, sodass eine erhöhte Häufigkeit tatsächlich auf eine erhöhte Wichtigkeit zurückgeführt werden kann.
 Wenn Texte verschieden lang sind, sollten die Häufigkeiten **normalisiert** werden, das heißt sie werden in Bezug zur Textlänge gesetzt. Dafür wird die absolute Häufigkeit durch die Textlänge dividiert, daraus ergibt sich die **relative Frequenz**. Die relative Frequenz des semantischen Felds "Grippe" kann als Anteil der Grippewörter am Gesamttext gesehen werden. 
 
@@ -56,7 +79,7 @@ $ f = {4 \over 69} = {0.05797101449} $$.
 Das heißt: Jedes zwangstigste Wort im Text steht im Zusammenhang mit der Spanischen Grippe. 
 `````
 
-### 2.4 Analyse des gesamten Korpus 
+### 3.4 Analyse des gesamten Korpus 
 Um den Verlauf der Aufmerksamkeit nachzuvollziehen, wird für jeden Text im Korpus die relative Frequenz des semantischen Felds "Grippe" berechnet und in einer Tabelle gespeichert. Die Frequenzen werden dann über die Zeit verglichen. Um Trends zu erkennen  
 
 `````{admonition} Beispiel
@@ -94,20 +117,29 @@ Eine zweite Möglichkeit, die Häufigkeiten über eine Zeitraum zusammenzufassen
 Mit der zweiten Methode ist die relative Häufigkeit um 0.005 höher.
 `````
 
-## 3. Visuelle Darstellung 
+## 4. Visuelle Darstellung 
 Im diesen Schritt werden die extrahierten absoluten oder relativen Häufigkeiten visualisert.
+
+```{figure} ../book_images/Drei-Wellen-1918-19-UK.png
+---
+height: 300px
+name: fig-brit-drei-wellen
+---
+Drei Wellen der Spanischen Grippe im Vereinigten Königreich. Quelle: {cite:p}`taubenberger_2006`
+```
+Abbbildung
+
 
 * x-Achse als Zeit 
 * Liniendiagramm 
 * Andere Möglichkeiten
 
-### 3.2 Akkumulierung von Häufigkeiten über Zeit
 
 ## 4. Keyword in Context (KWIC) 
 * Darstellungsform von Suchergebenissen 
 * Zentrierung des Suchbegriffs (und Hervorhebung) 
 * Zweck: schnelles Scannen des Kontext für weiterführende Analysen wie: 
-
+* Heuristik zum Überprüfen
 
 
 ## 5. Zusammenfassung und nächste Schritte 
