@@ -104,6 +104,6 @@ Get-Content CaseStudy01_Final-Korpus_Links.txt | ForEach-Object {
 
 Es startet ein Download, der – sofern er komplett durchläuft - am Ende 1.328 Dateien im Umfang von 104,7 GB einsammelt. 
 
-Dies ist unser Forschungskorpus `:rocket:`
+Dies ist unser Forschungskorpus 🚀
 
 
