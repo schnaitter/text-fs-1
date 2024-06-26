@@ -84,7 +84,7 @@ Die CSV-Datei, die sämtliche Elemente Korpus aufführt, listet auch jeweils ein
 https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180101-0-0-0-0.pdf
 
 ```
-Ruft man den Link etwa im Browser auf, wird die PDF angezeigt oder heruntergeladen. Auf diese Weise lassen sich sämtliche Elemente des Korpus sammeln. Dieser Prozess kann dabei automatisiert werden. 
+Ruft man den [Link](https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180101-0-0-0-0.pdf) etwa im Browser auf, wird die PDF angezeigt oder heruntergeladen. Auf diese Weise ließen sich sukzessive, Klick für Klick, sämtliche Elemente des Korpus sammeln. Dieser Prozess kann dabei automatisiert werden. 
 
 Dafür erstellen wir aus der CSV-Datei zunächst eine einfache Link-Liste mit allen Links und speichern diese als TXT-Datei, der wir in unserem Fall den Dateinamen "QUADRIGA_FS-Text-01_Data01_Link-List.txt" geben. Diese Datei lässt sich [hier](https://github.com/dh-network/quadriga/blob/ec3334a4b18750e5bb10c25b2badcbfbbf18592c/data/metadata/QUADRIGA_FS-Text-01_Data01_Link-List.txt) herunterladen.
 
@@ -104,6 +104,6 @@ Get-Content CaseStudy01_Final-Korpus_Links.txt | ForEach-Object {
 
 Es startet ein Download, der – sofern er komplett durchläuft - am Ende 1.328 Dateien im Umfang von 104,7 GB einsammelt. 
 
-Dies ist unser Forschungskorpus :rocket:
+Dies ist unser Forschungskorpus `:rocket:`
 
 
