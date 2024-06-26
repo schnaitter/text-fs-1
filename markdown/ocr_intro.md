@@ -2,10 +2,17 @@
 
 # OCR: Einführung in das Kapitel
 
-## 1. Voraussetzungen oder was bisher geschah
+```{figure} ../book_images/flow-chart_ocr.jpeg
+---
+height:
+name: Flussdiagramm der Fallstudie
+---
+Flussdiagramm der Fallstudie. Wir befinden uns im dritten Arbeitspaket.
+```
+Nach dem vorherigen [Kapitel](corpus-collection_summary) haben wir also ein Korpus als Sammlung gescannter Bilder. Ein Korpus in dieser Form ist jedoch noch **nicht maschinenlesbar** und kann nicht direkt verarbeitet werden. In diesem Kapitel lernen wir, wie man **Bilder in Text umwandelt**.
 
-TBD 
+Zunächst werden wir lernen, [was OCR ist](ocr), warum wir es brauchen und wie es funktioniert. Außerdem werden wir einen Überblick über einige OCR-Tools geben.
 
-## 2. Kapitel OCR
- 
-TBD
+Anschließend werden wir [OCR in Python mit PyTesseract](../data-inuput/FS_1_MVP_OCR) durchführen, einem kostenlosen und quelloffenen OCR-Tool.
+
+Schließlich werden wir die Metriken kennenlernen, die zur Messung der [OCR-Qualität](ocr-quality) verwendet werden, und [Qualitätsmessungen](../data-inuput/FS_1_MVP_OCR_Quality) durchführen.
