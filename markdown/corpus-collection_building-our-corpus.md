@@ -97,7 +97,7 @@ xargs -n 1 curl -O < QUADRIGA_FS-Text-01_Data01_Link-List.txt
 Windows-Nutzer:innen führen in der PowerShell folgenden Befehl aus
 
 ```
-Get-Content CaseStudy01_Final-Korpus_Links.txt | ForEach-Object {
+Get-Content QUADRIGA_FS-Text-01_Data01_Link-List.txt | ForEach-Object {
     Invoke-WebRequest -Uri $_ -OutFile (Split-Path $_ -Leaf)
 }
 ```
