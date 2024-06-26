@@ -24,8 +24,9 @@ Texte können digital auf sehr unterschiedliche Weisen gespeichert, prozessiert 
 height: 200
 name: Snippet eines Bilddigitalisats
 ---
-Beispiel für ein Bilddigitalisat von Text, hier ein Ausschnitt eines historischen Zeitungsartikels als PNG-Datei
 ```
+
+*Beispiel für ein Bilddigitalisat von Text, hier ein Ausschnitt eines historischen Zeitungsartikels als PNG-Datei*
 
 ## Reiner Text, "Plain Text"
 
@@ -43,7 +44,9 @@ Die Grippe wütet weiter
 Zunahme der schweren Fälle in Berlin. 
 Die Zahl der Grippefälle ist in den letzten beiden Tagen auch in Groß-Berlin noch deutlich gestiegen. Die Warenhäuser und sonstigen Geschäfte, die Kriegs- und die privaten Betriebe klagen, dass übermäßig viele Angestellte krank melden müssen, und auch bei der Post und bei der Straßenbahn ist die Zahl der Grippekranken bedeutend gestiegen.
 `
-<center>*Beispiel für Reinen Text ohne jede Formatierung, üblicherweise als TXT-Datei gespeichert*</center>
+
+*Beispiel für Reinen Text ohne jede Formatierung, üblicherweise als TXT-Datei gespeichert*
+
 
 ## XML/TEI
 
@@ -84,7 +87,8 @@ Die Zahl der Grippefälle ist in den letzten beiden Tagen auch in Groß-Berlin n
   </text>
 </TEI>
 ```
-<center>*Beispiel für eine XML-Kodierung nach TEI-Standard. Im Kopfbereich der Datei steht der `<teiHeader>` mit Metadaten, es folgt das `<text>`-Element, in dem der Text mit Strukturinformationen (z.B. `<head>` für Überschrift) gesoeichert wird*</center>
+
+*Beispiel für eine XML-Kodierung nach TEI-Standard. Im Kopfbereich der Datei steht der `<teiHeader>` mit Metadaten, es folgt das `<text>`-Element, in dem der Text mit Strukturinformationen (z.B. `<head>` für Überschrift) gesoeichert wird*
 
 ## CSV für annotierte Texte
 
@@ -96,6 +100,7 @@ Die Zahl der Grippefälle ist in den letzten beiden Tagen auch in Groß-Berlin n
 - **Einschränkungen:** CSV-Dateien sind weniger flexibel für komplexe Textstrukturen und eignen sich besser für flache, tabellarische Daten.
 
 **Beispiel:** 
+
 ```
 ID,TOKEN,LEMMA,POS
 1,Die,die,DET
@@ -110,7 +115,8 @@ ID,TOKEN,LEMMA,POS
 11,Berlin,Berlin,PROPN
 12,.,.,PUNCT
 ```
-<center>*CSV-Datei, bei der in der ersten Zeile ein Tabellenkopf steht, in den dann folgenden Zeilen jeweils zunächst eine durchzählende ID, dann ein Wort, gefolgt von  weiteren linguistischen Informationen: der Grundform ("Lemma") und der Wortart ("POS", "Part of Speech")*</center>
+
+*CSV-Datei, bei der in der ersten Zeile ein Tabellenkopf steht, in den dann folgenden Zeilen jeweils zunächst eine durchzählende ID, dann ein Wort, gefolgt von  weiteren linguistischen Informationen: der Grundform ("Lemma") und der Wortart ("POS", "Part of Speech")*
 
 
 | ID  | TOKEN    | LEMMA   | POS   |
@@ -126,7 +132,8 @@ ID,TOKEN,LEMMA,POS
 | 10  | in       | in      | ADP   |
 | 11  | Berlin   | Berlin  | PROPN |
 | 12  | .        | .       | PUNCT |
-<center>*CSV-Datei lassen sich, wie hier zu sehen, mit üblichen Programmen wie Open Office oder MS Office auch als Tabellen darstellen*</center>
+
+*CSV-Datei lassen sich, wie hier zu sehen, mit üblichen Programmen wie Open Office oder MS Office auch als Tabellen darstellen*
 
 
 ## Zusammenfassung
