@@ -11,6 +11,9 @@ Um diese mit quantitativen Methoden zu bearbeiten, wurde die Forschungsfrage zun
 2. Die **Spanische Grippe** wird durch ein manuelle erstelltes semantisches Feld, das sich um das Wort "Grippe" kreist, untersucht. 
 3. Der **Verlauf** der öffentliche Aufmerksamkeit wird über die sich entwickelte Häufigkeit des Wortfelds untersucht. Eine erhöhte Häufigkeit deutet auf eine erhöhte Aufmerksamkeit hin und vice versa. 
 
+
+## 2. Erstellen eines semantische Felds
+
 ## 2. Häufigkeit als Analysemethode 
 
 ### 2.1 Warum die Häufigkeit analysieren?
@@ -54,7 +57,7 @@ Das heißt: Jedes zwangstigste Wort im Text steht im Zusammenhang mit der Spanis
 `````
 
 ### 2.4 Analyse des gesamten Korpus 
-Um den Verlauf der Aufmerksamkeit nachzuvollziehen, wird für jeden Text im Korpus die relative Frequenz des semantischen Felds "Grippe" berechnet und in einer Tabelle gespeichert werden. Die Frequenzen werden dann untereinander verglichen. 
+Um den Verlauf der Aufmerksamkeit nachzuvollziehen, wird für jeden Text im Korpus die relative Frequenz des semantischen Felds "Grippe" berechnet und in einer Tabelle gespeichert. Die Frequenzen werden dann über die Zeit verglichen. Um Trends zu erkennen  
 
 `````{admonition} Beispiel
 :class: tip
@@ -69,7 +72,31 @@ Um den Verlauf der Aufmerksamkeit nachzuvollziehen, wird für jeden Text im Korp
 ```
 `````
 
+Um Muster über die Zeit zu erkennen, ist es sinnvoll die erhobenen Häufigkeiten in größere Zeitabschnitte zu unterteilen, wie z.B. Wochen oder Monate. Dafür werden sowohl die absoluten Häufigkeiten als auch die Textlängen in dem ausgewählten Zeitraum addiert, sodass auf dieser Basis die relative Häufigkeit für den Zeitraum berechnet werden kann.
+
+
+`````{admonition} Durchschnitt von relativen Häufigkeiten
+:class: warning
+Eine zweite Möglichkeit, die Häufigkeiten über eine Zeitraum zusammenzufassen, bestünde darin, den Durchschnitt der Häufigkeiten zu nehmen. Diese Methode ist davon von schwankenden Textlängen an verschiedenen Tagen abhängig. Eine Folge davon wäre, dass Tage mit kurzen Texten und einer hohen Anzahl an Grippewörtern würden Durchschnitt stark in die Höhe ziehen, obwohl die absolute Anzahl an Wörtern geringer ist als an Tagen, für die längere Texte vorliegen. 
+
+```{table}
+:name: Beispiel: Methoden des Zusammenfügens
+
+| Tag  | Absolute Häufigkeit| Textlänge | 
+|------|--------------------|-----------|
+| 1    | 20    | 500 |
+| 2    | 5     | 100 |
+| 3    | 15    | 600  | 
+```
+1. Alle Häufigkeiten addieren und durch die Summe der Textlängen teilen: $ {{20 + 5 + 15} \over {500 + 100 + 600}} = {{40} \over {1200}} = {0.033}$
+2. Die relative Häufigkeiten addieren und durch die Anzahl an Tagen teilen: $ {{{20 \over 500} + {5 \over 100} + {15 \over 600}} \over 3} = {{0.04 + 0.05 + 0.025} \over 3} = 0.038$
+
+Mit der zweiten Methode ist die relative Häufigkeit um 0.005 höher.
+`````
+
 ## 3. Visuelle Darstellung 
+Im diesen Schritt werden die extrahierten absoluten oder relativen Häufigkeiten visualisert.
+
 * x-Achse als Zeit 
 * Liniendiagramm 
 * Andere Möglichkeiten
