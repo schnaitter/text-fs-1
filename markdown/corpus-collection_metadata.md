@@ -8,7 +8,7 @@ Metadaten sind Daten über Daten. Sie liefern kontextuelle Informationen, die he
 Es gibt verschiedene Metadatenschemata, die entwickelt wurden, um spezifische Anforderungen unterschiedlicher Disziplinen und Anwendungen zu erfüllen. Zu den bekanntesten gehören:
 
 1. **[Dublin Core](https://www.dublincore.org/specifications/dublin-core/dces/)**: Ein einfaches und weit verbreitetes Schema, das 15 grundlegende Elemente umfasst, wie Titel, Autor, Thema und Datum.
-2. **[TEI (Text Encoding Initiative)](https://tei-c.org/)**: Speziell für literarische und linguistische Texte entwickelt, bietet TEI detaillierte Richtlinien zur Auszeichnung von Texten und deren Metadaten.
+2. **[TEI (Text Encoding Initiative)](https://tei-c.org/)**: Speziell für Texte entwickelt, bietet TEI detaillierte Richtlinien zur Auszeichnung von Texten und zur Erfassung von deren Metadaten im [`<teiHeader>`](https://tei-c.org/release/doc/tei-p5-doc/de/html/ref-teiHeader.html).
 3. **[MODS (Metadata Object Description Schema)](https://www.loc.gov/standards/mods/)**: Von der Library of Congress entwickelt, bietet MODS eine umfangreichere Beschreibung als Dublin Core und ist besonders für bibliographische Informationen geeignet.
 4. **[METS (Metadata Encoding and Transmission Standard)](https://www.loc.gov/standards/mets/)**: Ein Standard zur Kodierung und Übertragung von Digitalisaten und deren Metadaten, häufig in Bibliotheken und Archiven verwendet.
 
@@ -17,7 +17,7 @@ Es gibt verschiedene Metadatenschemata, die entwickelt wurden, um spezifische An
 Bei der Beschreibung eines gesamten Korpus sind die Metadaten entscheidend, um den Kontext, den Umfang und die Struktur des Korpus zu dokumentieren. Wichtige Aspekte sind unter anderem:
 
 - **Titel und Beschreibung**: Um das Korpus eindeutig zu identifizieren und dessen Inhalt zu beschreiben.
-- **Ersteller:innen und Herausgeber:innen**: Angaben zu den Personen oder Institutionen, die das Korpus erstellt und veröffentlicht haben.
+- **Ersteller:innen und/oder Herausgeber:innen**: Angaben zu den Personen oder Institutionen, die das Korpus erstellt und veröffentlicht haben.
 - **Datum**: Zeitangaben zur Erstellung und Veröffentlichung des Korpus.
 - **Umfang und Format**: Informationen über die Anzahl der enthaltenen Dokumente und deren Dateiformate.
 - **Sprache**: Die im Korpus vertretenen Sprachen.
@@ -56,7 +56,7 @@ Für einen einzelnen Zeitungsartikel könnten die Metadaten so aussehen:
 - **[DC.date](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/date/)**: "1918-10-15"
 - **[DC.source](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/source/)**: "Berliner Morgenpost"
 - **[DC.subject](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/subject/)**: "Spanische Grippe"
-- **[DC.coverage](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/coverage/)**: "Berlin, 1918"
+- **[DC.coverage](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/coverage/)**: "1918, Berlin"
 - **[DC.language](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/language/)**: "Deutsch"
 - **[DC.identifier](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/identifier/)**: "SNP2719372X-19181015-0-0-0-0"
 
