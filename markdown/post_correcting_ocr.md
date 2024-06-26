@@ -1,6 +1,6 @@
 # Einführung in die OCR-Nachbearbeitung
 
-Wie Sie bereits wissen, sind OCR-Ergebnisse selten perfekt. Dies gilt insbesondere für historische Texte. Daher ist in der Regel eine Nachbearbeitung erforderlich, um die üblichen Fehler zu korrigieren.
+Wie Sie [bereits wissen](../data-input/FS_1_MVP_OCR_Quality), sind OCR-Ergebnisse selten perfekt. Dies gilt insbesondere für historische Texte. Daher ist in der Regel eine Nachbearbeitung erforderlich, um die üblichen Fehler zu korrigieren.
 
 Die Nachbearbeitung umfasst verschiedene Schritte, die sicherstellen, dass der umgewandelte Text korrekt und lesbar ist. Diese Schritte können manuell oder automatisiert durchgeführt werden und umfassen unter anderem die Korrektur von Tippfehlern, die Formatierung des Textes und die Überprüfung auf Vollständigkeit und Genauigkeit.
 
