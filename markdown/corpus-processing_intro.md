@@ -1,5 +1,5 @@
 (corpus-processing_intro)=
-# Korpusverarbeitung: Einführung in das Kapitel
+# Einführung
 
 ```{figure} ../book_images/flow-chart_corpus-processing.jpeg
 ---

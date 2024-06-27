@@ -25,12 +25,14 @@ parts:
     - file: data-input/FS_1_MVP_OCR
     - file: markdown/ocr-quality
     - file: data-input/FS_1_MVP_OCR_Quality
+    - file: markdown/ocr_summary
   - caption: OCR-Nachbereitung. Manuell, automatisch, LLMs
     chapters:
     - file: markdown/post-correcting_intro
     - file: markdown/post_correcting_ocr
     - file: data-input/FS_1_MVP_Post_Correcting_OCR
     - file: markdown/LLM-based-correction
+    - file: markdown/post_correcting_summary
   - caption: Korpusverarbeitung. Von Strings zu Token
     chapters:
     - file: markdown/corpus-processing_intro
