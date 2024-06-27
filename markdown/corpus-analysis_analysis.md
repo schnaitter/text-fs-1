@@ -118,7 +118,8 @@ Mit der zweiten Methode ist die relative Häufigkeit um 0.005 höher.
 `````
 
 ## 4. Visuelle Darstellung 
-Im diesen Schritt werden die extrahierten absoluten oder relativen Häufigkeiten visualisert.
+
+Im diesen Schritt werden die extrahierten absoluten oder relativen Häufigkeiten mit einem Liniendiagramm visualisert. Liniendiagramme eignen sich gut, um zeitliche Verläufe darzustellen, da lokale und globale Minima und Maxima leicht erkennbar sind und sie die Kontinuität der Daten unterstreichen. 
 
 ```{figure} ../book_images/Drei-Wellen-1918-19-UK.png
 ---
@@ -127,20 +128,30 @@ name: fig-brit-drei-wellen
 ---
 Drei Wellen der Spanischen Grippe im Vereinigten Königreich. Quelle: {cite:p}`taubenberger_2006`
 ```
-Abbbildung
+[**Das Liniendiagramm**](fig-brit-drei-wellen), das wir als Orientierungsgröße für ein wellenartiges Muster nehmen, zeigt den zeitlichen Verlauf der durch die Spanische Grippe verursachten Todesfälle in Großbritannien. Die Ticks auf der x-Achse zeigen die Wochen und die Beschriftung die Monate an (in Form von Monat/Tag). In einer weiteren Beschriftung wird auf das Jahr verwiesen. Da die einzelnen Erhebungen (z. B. das erste lokale Minimum zwischen Juni und Juli 1918) granulurar sind als die angegeben Monate, können wir annehmen, dass die Daten wochenweise zusammengefasst wurden. Die y-Achse gibt, wie die Beschriftung sagt, die Tode pro 1.000 Personen an.
+Wir erstellen eine ähnliche Visualierung mit dem Unterschied, dass die y-Achse die Häufigkeit angibt. 
+
+Die Häufigkeiten über Zeit ließen sich auch in einem Balkendiagramm darstellen. Diese sind nützlich, um Häufigkeiten in diskreten Zeitintervallen zu visualisieren, sie eigne sich aber weniger gut, um eine zeitliche Entwicklung zu zeigen. 
 
 
-* x-Achse als Zeit 
-* Liniendiagramm 
-* Andere Möglichkeiten
+## 5. Keyword in Context (KWIC) 
 
+### 5.1 Was ist KWIC?
+Die Keyword in Context (KWIC)-Darstellung basiert auf der Suche eines oder meherer Worte oder einer Phrase innerhalb eines Korpus und zeigt den gesuchten Term sowie den textuellen Kontext des Terms an. Es kann dabei definiert werden, wie groß der Kontext ist (z. B. 5 Wörter, ein Satz, etc.). Wie in [der Abbildung](tab-kwic) zu sehen ist, hat die Darstellung die Form einer Tabelle mit drei Spalten: der Kontext auf der linken Seite, der gesuchte Term (meist farblich hervorgehoben), der Kontekt auf der rechten Seite. Zusätzlich können noch Metadaten gegeben sein, wie die Quelle (wenn in einem Korpus gesucht wird) oder das Datum.
 
-## 4. Keyword in Context (KWIC) 
-* Darstellungsform von Suchergebenissen 
-* Zentrierung des Suchbegriffs (und Hervorhebung) 
-* Zweck: schnelles Scannen des Kontext für weiterführende Analysen wie: 
-* Heuristik zum Überprüfen
+```{table}
+:name: tab-kwic
+| Linker Kontext                                       | Suchterm | Rechter Kontext                                   | Datum   |
+|------------------------------------------------------|----------|---------------------------------------------------|---------|
+| \|\| - Zahn- Praxis Klömpen Beize \| \n a Een naa... | Grippe   | DIRE Tr beite wi ; \n                             | 1918-12 |
+|   Am Dienstag , 27. Auguſt , abends , Verffötb i...  | Grippe   | ung en Grippe in „ treuen Pfichterſülung fürs ... | 1918-09 |
+|   Am 19. Okiober .d . 45 , \n Wir büten voten , ...  | Grippe   | 3. verſchied in einem Feld- 8 \n lazarett info... | 1918-10 |
 
+KWIC-Darstellung des Suchterms "Grippe" mit n Wörtern als Kontext.  
+```
+### 5.2 Der Gebrauch von KWIC
+Die KWIC-Darstellung bildet eine Brücke von der quantitativen zur qualitativen Analyse, da die Grundlage der Häufigkeitenanalyse genauer in Betracht genommen werden kann. Die Kontexte geben eine Überblick über den Gebrauch des Wortes und bieten so die Möglichkeit, Muster im Wortgebrauch festzustellen. Die zusätzlichen Metadaten erlauben es, in interessanten oder in Zweifelsfällen einen Blick in die Quelle zu werfen und so den Analysekontext zu erweitern.   
+Mit Hilfe der Darstellung kann außerdem die Annahme überprüft werden, dass sich die Wörter im semantischen Feld "Grippe" tatsächlich auf die Grippe beziehen. Das semantische Feld kann in einem iterativen Prozess manuell verbessert werden, indem mehrdeutige Wörter, die häufig nicht auf die Grippe verweisen, aus dem Feld gelöscht werden und Wörter, die häufig im Kontext der Grippe vorkommen, aber nicht Teil des Felds sind, hinzugefügt werden.  
 
-## 5. Zusammenfassung und nächste Schritte 
+## 6. Zusammenfassung und nächste Schritte 
 
