@@ -7,7 +7,7 @@ Natürlich gibt es auch intelligentere Methoden zur Nachbearbeitung von OCR-Erge
 
 ```{figure} ../book_images/llm_postcorr_bad.png
 ---
-height: 200px
+height: 600px
 name: LLM postcorrection gone wrong
 ---
 ```
@@ -16,7 +16,7 @@ name: LLM postcorrection gone wrong
 
 ```{figure} ../book_images/llm_postcorr_good.png
 ---
-height: 200px
+height: 600px
 name: LLM postcorrection gone well
 ---
 ```
@@ -25,7 +25,7 @@ name: LLM postcorrection gone well
 
 ```{figure} ../book_images/llm_postcorr_hallucinates.png
 ---
-height: 200px
+height: 600px
 name: LLM postcorrection small hallucination
 ---
 ```
