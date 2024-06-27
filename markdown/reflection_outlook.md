@@ -18,7 +18,7 @@ Wir haben schon mal ChatGPT gefragt. Das ergab dies
 > As additional information: You have a ChatGPT Plus subscription.
 > 
 
-##Output
+## Output
 To tackle this challenge, follow these steps:
 
 1.	Break Down the Text Files: Given the size limitations of the GPT API, you’ll need to split the text files into smaller chunks. The GPT-4 API (including ChatGPT) typically handles input text up to a few thousand tokens per request. For safety, assume a maximum of around 4096 tokens (about 3000 words) per request.
