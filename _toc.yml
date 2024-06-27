@@ -10,14 +10,15 @@ parts:
     - file: markdown/research-question_intro
     - file: markdown/research-question_research-question
     - file: markdown/research-question_operationalization
+    - file: markdown/research-question_summary
   - caption: Korpusaufbau. Auswählen, sammeln, dokumentieren
     chapters:
     - file: markdown/corpus-collection_intro    
-    - file: markdown/corpus-collection_corpora-as-research-objects.md
+    - file: markdown/corpus-collection_corpora-as-research-objects
     - file: markdown/corpus-collection_text_as_digital_objects
     - file: markdown/corpus-collection_metadata
-    - file: markdown/corpus-collection_building-our-corpus.md
-    - file: markdown/corpus-collection_summary.md
+    - file: markdown/corpus-collection_building-our-corpus
+    - file: markdown/corpus-collection_summary
   - caption: OCR. Von Bild zu Text
     chapters:
     - file: markdown/ocr_intro
