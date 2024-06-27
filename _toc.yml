@@ -32,7 +32,7 @@ parts:
     - file: markdown/post_correcting_ocr
     - file: data-input/FS_1_MVP_Post_Correcting_OCR
     - file: markdown/LLM-based-correction
-    - file: markdown/post_correcting_summary
+    - file: markdown/post-correcting_summary
   - caption: Korpusverarbeitung. Von Strings zu Token
     chapters:
     - file: markdown/corpus-processing_intro
