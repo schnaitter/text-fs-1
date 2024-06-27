@@ -29,7 +29,7 @@ parts:
   - caption: OCR-Nachbereitung. Manuell, automatisch, LLMs
     chapters:
     - file: markdown/post-correcting_intro
-    - file: markdown/post_correcting_ocr
+    - file: markdown/post-correcting_ocr
     - file: data-input/FS_1_MVP_Post_Correcting_OCR
     - file: markdown/LLM-based-correction
     - file: markdown/post-correcting_summary
