@@ -8,7 +8,7 @@ name: Zeitungssnippet mit simuliertem OCR-Overlay
 ---
 ```
 
-Die vorliegende Fallstudie bereitet – in Form eines "Jupyter Books" – den Prozess und die Ergebnisse eines Forschungsprojekts aus den Digital Humanities didaktisch auf. Schritt für Schritt wird nachvollziehbar, 
+Die vorliegende Fallstudie bereitet – in Form eines ["Jupyter Books"](introduction_requirements) – den Prozess und die Ergebnisse eines Forschungsprojekts aus den Digital Humanities didaktisch auf. Schritt für Schritt wird nachvollziehbar, 
 
 - wie eine **Forschungsfrage** entwickelt und operationalisiert wird, 
 - ein entsprechendes **Korpus** aufgebaut, bereinigt und angereichert wird,
