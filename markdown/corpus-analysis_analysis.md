@@ -1,4 +1,4 @@
-# Korpusanalyse: Einführung in die Methode 
+# Häufigkeitenanalyse, Visualierung und KWIC 
 
 ## 1. Forschungsfrage und Operationalisierung
 Wir gehen von folgender Forschungsfrage aus: 

@@ -1,5 +1,5 @@
 (corpus-analysis_intro)=
-# Korpusanalyse: Einführung in das Kapitel 
+# Einführung 
 
 
 ```{figure} ../book_images/flow-chart_corpus-analysis.jpeg

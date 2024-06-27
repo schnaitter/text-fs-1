@@ -1,4 +1,4 @@
-# Einführung - NLP als Methode zur "Semantisierung" von Text
+# NLP als Methode zur "Semantisierung" von Text
 
 ## 1. Was ist NLP und warum benutzen wir es?
 Für den Computer ist ein Text eine Liste von Zeichen, die nicht aus semantischen Einheiten wie z.B. Wörtern oder Sätzen besteht. Sobald die Operationalisierung einer Forschungsfrage von diesen semantischen Einheiten ausgeht, z.B. auf der Häufigkeit eines Wortes aufbaut, ist es sinnvoll Methoden des [Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing) (NLP) anzuwenden, um den Text mit zusätzlichen linguistischen Informationen anzureichern.  
