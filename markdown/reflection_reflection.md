@@ -19,4 +19,9 @@ Diese Punkte gilt es zu beachten, wenn es um die Einordnung der **Reichweite der
 
 Forschung in den Digital Humanities ist auch der stete Versuch, die Tradition qualitativen Fragens und Forschens mit den quantitativ-computationellen Methoden der Gegenwart zu vermitteln.
 
-![Embrace the light and the dark side](../book-images/Embrace-the-light-and-the-dark-side.jpg)
+```{figure} ../book_images/Embrace-the-light-and-the-dark-side.jpg
+---
+height: 30
+name: Star Wars Meme: Embrace the light and dark side
+---
+
