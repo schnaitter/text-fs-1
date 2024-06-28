@@ -35,7 +35,7 @@ jobs:
     #required packages
     - name: Install packages
       run: | 
-          apt-get install tesseract-ocr-frk
+          sudo apt-get install tesseract-ocr-frk
 
     # Build the book
     - name: Build the book
