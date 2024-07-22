@@ -9,7 +9,7 @@ Lassen sich für die Spanische Grippe 1918/1919 mit Fokus auf den Berliner Raum 
 Um diese mit quantitativen Methoden zu bearbeiten, wurde die Forschungsfrage zunächst wie folgt **operationalisiert**: 
 1. Die **öffentliche Aufmerksamkeit im Berliner Raum** wird durch ein Korpus von zwei Berliner Zeitungen gefasst.
 2. Die **Spanische Grippe** wird durch ein semantisches Feld, das sich um das Wort "Grippe" kreist, untersucht. 
-3. Der **Verlauf** der öffentliche Aufmerksamkeit wird über die sich entwickelte Häufigkeit des Wortfelds untersucht. Eine erhöhte Häufigkeit deutet auf eine erhöhte Aufmerksamkeit hin und vice versa. 
+3. Der **Verlauf** der öffentliche Aufmerksamkeit wird über die sich entwickelte Häufigkeit des Wortfelds untersucht. Eine erhöhte Häufigkeit deutet auf eine erhöhte Aufmerksamkeit hin. 
 
 
 ## 2. Das semantische Feld der Spanischen Grippe
@@ -41,10 +41,10 @@ Als Resultat haben wir eine Liste mit 25 Nomen erhalten.
 ## 3. Häufigkeit als Analysemethode 
 
 ### 3.1 Warum die Häufigkeit analysieren?
-Die Analyse von Worthäufigkeiten ist sowohl in der Korouslinugistik als auch in den Digital Humanities [p. 73] weit verbreitet. Für die Analyse von Inhaltswörtern (Nomen, Verben, Adjektive, Adverben) wird angenommen, dass ein hohes Vorkommen mit der Wichtigkeit der Wörter den Text in Frage korreliert. Besonders bei einer vergleichenden Analyse (etwa von zwei Zeitungen oder eine Thema über Zeit) ist die Häufigkeitsnanalyse sinnvoll, da der Vergleich so quantisierbar wird. 
+Die Analyse von Worthäufigkeiten ist sowohl in der Korpuslinugistik als auch in den Digital Humanities [p. 73] weit verbreitet. Für die Analyse von Inhaltswörtern (Nomen, Verben, Adjektive, Adverben) wird angenommen, dass ein hohes Vorkommen mit der Wichtigkeit der Wörter im Text korreliert. Besonders bei einer vergleichenden Analyse (etwa von zwei Zeitungen oder einem Thema über Zeit) ist die Häufigkeitsanalyse sinnvoll, da der Vergleich so quantisierbar wird. 
 
 ### 3.2 Häufigkeit von Grippe
-Um die Wichtigkeit eines Themenfelds wie der Spanischen Grippe zu untersuchen, bietet es sich an, nicht nur das Vorkommen eines einzelnen Wortes wie "Grippe" zu untersuchen, sondern andere, mit Grippe im Zusammenhang stehende Wörter zu sammeln, im Sinne eines semantischen Felds. Die Wörter werden in der Grundform angegeben, sodass sie mit den Lemmata im Text verglichen werden können.
+Um die Wichtigkeit eines Themenfelds wie der Spanischen Grippe zu untersuchen, bietet es sich an, nicht nur das Vorkommen eines einzelnen Wortes wie "Grippe" zu untersuchen, sondern andere, mit Grippe im Zusammenhang stehende Wörter zu sammeln. Die Wörter werden in der Grundform angegeben, sodass sie mit den Lemmata im Text verglichen werden können.
 Für jedes Wort wird dann die Häufigkeit errechnet, diese nennt sich **absolute Häufigkeit**. Die absoluten Häufigkeiten werden addiert, sodass sich pro Text eine Zahl ergibt, die die Summe aller Häufigkeiten der Grippenbezogenen Wörter angibt.
 
 `````{admonition} Beispiel
@@ -101,7 +101,7 @@ Um Muster zu erkennen, ist es sinnvoll die erhobenen Häufigkeiten in größere 
 
 `````{admonition} Durchschnitt von relativen Häufigkeiten
 :class: warning
-Eine zweite Möglichkeit, die Häufigkeiten über eine Zeitraum zusammenzufassen, bestünde darin, den Durchschnitt der Häufigkeiten zu nehmen. Diese Methode ist davon von schwankenden Textlängen an verschiedenen Tagen abhängig. Eine Folge davon wäre, dass Tage mit kurzen Texten und einer hohen Anzahl an Grippewörtern würden Durchschnitt stark in die Höhe ziehen, obwohl die absolute Anzahl an Wörtern geringer ist als an Tagen, für die längere Texte vorliegen. 
+Eine zweite Möglichkeit, die Häufigkeiten über eine Zeitraum zusammenzufassen, bestünde darin, den Durchschnitt der Häufigkeiten zu nehmen. Diese Methode ist davon von schwankenden Textlängen an verschiedenen Tagen abhängig. Eine Folge davon wäre, dass Tage mit kurzen Texten und einer hohen Anzahl an Grippewörtern den Durchschnitt stark in die Höhe ziehen würden, obwohl die absolute Anzahl an Wörtern geringer ist als an Tagen, für die längere Texte vorliegen. 
 
 ```{table}
 :name: Beispiel: Methoden des Zusammenfügens
@@ -115,7 +115,7 @@ Eine zweite Möglichkeit, die Häufigkeiten über eine Zeitraum zusammenzufassen
 1. Alle Häufigkeiten addieren und durch die Summe der Textlängen teilen: $ {{20 + 5 + 15} \over {500 + 100 + 600}} = {{40} \over {1200}} = {0.033}$
 2. Die relative Häufigkeiten addieren und durch die Anzahl an Tagen teilen: $ {{{20 \over 500} + {5 \over 100} + {15 \over 600}} \over 3} = {{0.04 + 0.05 + 0.025} \over 3} = 0.038$
 
-Mit der zweiten Methode ist die relative Häufigkeit um 0.005 höher.
+Mit der zweiten Methode ist die relative Häufigkeit um 0.005 Prozentpunkte höher.
 `````
 
 ## 4. Visuelle Darstellung 
@@ -129,8 +129,8 @@ name: fig-brit-drei-wellen
 ---
 Drei Wellen der Spanischen Grippe im Vereinigten Königreich. Quelle: {cite:p}`taubenberger_2006`
 ```
-[**Das Liniendiagramm**](fig-brit-drei-wellen), das wir als Orientierungsgröße für ein wellenartiges Muster nehmen, zeigt den zeitlichen Verlauf der durch die Spanische Grippe verursachten Todesfälle in Großbritannien. Die Ticks auf der x-Achse zeigen die Wochen und die Beschriftung die Monate an (in Form von Monat/Tag). In einer weiteren Beschriftung wird auf das Jahr verwiesen. Da die einzelnen Erhebungen (z. B. das erste lokale Minimum zwischen Juni und Juli 1918) granulurar sind als die angegeben Monate, können wir annehmen, dass die Daten wochenweise zusammengefasst wurden. Die y-Achse gibt, wie die Beschriftung sagt, die Tode pro 1.000 Personen an.
-Wir erstellen eine ähnliche Visualierung mit dem Unterschied, dass die y-Achse die Häufigkeit angibt. 
+[**Das Liniendiagramm**](fig-brit-drei-wellen), das wir als Orientierungsgröße für ein wellenartiges Muster nehmen, zeigt den zeitlichen Verlauf der durch die Spanische Grippe verursachten Todesfälle in Großbritannien. Die Ticks auf der x-Achse zeigen die Wochen und die Beschriftung die Monate an (in Form von Monat/Tag). In einer weiteren Beschriftung wird auf das Jahr verwiesen. Da die einzelnen Erhebungen (z. B. das erste lokale Minimum zwischen Juni und Juli 1918) granularer sind als die angegeben Monate, können wir annehmen, dass die Daten wochenweise zusammengefasst wurden. Die y-Achse gibt, wie die Beschriftung sagt, die Tode pro 1.000 Personen an.
+Wir erstellen eine ähnliche Visualierung mit dem Unterschied, dass die y-Achse die relative Worthäufigkeit angibt. 
 
 Die Häufigkeiten über Zeit ließen sich auch in einem Balkendiagramm darstellen. Diese sind nützlich, um Häufigkeiten in diskreten Zeitintervallen zu visualisieren, sie eigne sich aber weniger gut, um eine zeitliche Entwicklung zu zeigen. 
 
