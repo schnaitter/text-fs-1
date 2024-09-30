@@ -5,7 +5,7 @@ Die im [vorhergehenden Abschnitt](research-question_research-question) entwickel
 
 Für die Operationalisierung unserer Forschungsfrage müssen insbesondere zwei Fragen adressiert werden:
 
-- Was ist öffentlichen Aufmerksamkeit im Berliner Raum? 
+- Was ist öffentliche Aufmerksamkeit im Berliner Raum? 
 - Wie kann diese gemessen werden? 
 
 Entlang dieser beiden Fragen kommen wir zur folgenden Operationalisierung:
