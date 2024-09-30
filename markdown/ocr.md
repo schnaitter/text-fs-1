@@ -23,20 +23,20 @@ name: OCR
 6. **Archivierung und Langzeitlagerung**: Durch die Digitalisierung und OCR können wichtige Dokumente sicher archiviert und langfristig gespeichert werden, ohne dass sie an Qualität verlieren.
 
 
-### What do we use to perform OCR 
+### Wofür verwenden wir OCR
 
-OCR technology is increasingly being integrated into basic software applications, such as PDF viewers. Tools like MacOS 'Preview' or Adobe Acrobat feature built-in OCR. But this is not suitable for **bulk processing of corpora**. Therefore one still needs **specialized OCR software** or programming packages to process **large quantities of images/PDFs** into machine-readable corpora.  
+Die OCR-Technologie wird zunehmend in grundlegende Softwareanwendungen, wie z. B. PDF-Viewer, integriert. Tools wie MacOS 'Vorschau' oder Adobe Acrobat verfügen über integrierte OCR-Funktionen. Diese sind jedoch nicht für die **Massenverarbeitung von Korpora** geeignet. Daher benötigt man nach wie vor **spezialisierte OCR-Software** oder Programmpakete, um **große Mengen an Bildern/PDFs** in maschinenlesbare Korpora zu verarbeiten.
 
-#### Specialised OCR tools 
+#### Spezialisierte OCR-Tools
 
-The field of making OCR tools is developing rapidly (together with all other fields of text processing), so there are always new tools challenging the old ones. But as of 2024, the well-known products were: 
+Das Feld der OCR-Tools entwickelt sich rasant (zusammen mit allen anderen Bereichen der Textverarbeitung), sodass es immer neue Tools gibt, die die alten herausfordern. Aber Stand 2024 waren die bekannten Produkte:
 
-* FineReader (commercial, has a desktop interface)
-* Tesseract (open source, command-line interface, also some third-party desktop interfaces)
-* OCR4all (open source, has a (dockerized locally deployable) desktop interface)
-* Kraken & e-Scriptorium (open source, e-Scriptorium has a desktop interface)
-* EasyOCR (open source, has a desktop interface)
+* FineReader (Closed Source, kommerziell)
+* Tesseract (Open Source)
+* OCR4all (Open Source)
+* Kraken & e-Scriptorium (Open Source)
+* EasyOCR (Open Source)
 
-#### OCR in Python with PyTesseract 
+#### OCR in Python mit PyTesseract
 
-In this tutorial, we'll do OCR with **Tesseract**,  which is open & free. Specifically, we'll use the Python package **PyTesseract**.
+In diesem Tutorial werden wir OCR mit **Tesseract** durchführen, das offen und kostenlos ist. Wir verwenden das Python-Paket **PyTesseract**.
