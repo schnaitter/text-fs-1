@@ -129,10 +129,10 @@ name: fig-brit-drei-wellen
 ---
 Drei Wellen der Spanischen Grippe im Vereinigten Königreich. Quelle: {cite:p}`taubenberger_2006`
 ```
-[**Das Liniendiagramm**](fig-brit-drei-wellen), das wir als Orientierungsgröße für ein wellenartiges Muster nehmen, zeigt den zeitlichen Verlauf der durch die Spanische Grippe verursachten Todesfälle in Großbritannien. Die Ticks auf der x-Achse zeigen die Wochen und die Beschriftung die Monate an (in Form von Monat/Tag). In einer weiteren Beschriftung wird auf das Jahr verwiesen. Da die einzelnen Erhebungen (z. B. das erste lokale Minimum zwischen Juni und Juli 1918) granularer sind als die angegeben Monate, können wir annehmen, dass die Daten wochenweise zusammengefasst wurden. Die y-Achse gibt, wie die Beschriftung sagt, die Tode pro 1.000 Personen an.
-Wir erstellen eine ähnliche Visualierung mit dem Unterschied, dass die y-Achse die relative Worthäufigkeit angibt. 
+**Das Liniendiagramm** (siehe [Abbildung oben](fig-brit-drei-wellen)), das wir als Orientierungsgröße für ein wellenartiges Muster nehmen, zeigt den zeitlichen Verlauf der durch die Spanische Grippe verursachten Todesfälle in Großbritannien. Die Ticks auf der x-Achse zeigen die Wochen und die Beschriftung die Monate an (in Form von Monat/Tag). In einer weiteren Beschriftung wird auf das Jahr verwiesen. Da die einzelnen Erhebungen (z. B. das erste lokale Minimum zwischen Juni und Juli 1918) granularer sind als die angegeben Monate, können wir annehmen, dass die Daten wochenweise zusammengefasst wurden. Die y-Achse gibt, wie die Beschriftung sagt, die Tode pro 1.000 Personen an.
+Wir erstellen eine ähnliche Visualierung mit dem Unterschied, dass die y-Achse die relative Worthäufigkeit angibt.
 
-Die Häufigkeiten über Zeit ließen sich auch in einem Balkendiagramm darstellen. Diese sind nützlich, um Häufigkeiten in diskreten Zeitintervallen zu visualisieren, sie eigne sich aber weniger gut, um eine zeitliche Entwicklung zu zeigen. 
+Die Häufigkeiten über Zeit ließen sich auch in einem Balkendiagramm darstellen. Diese sind nützlich, um Häufigkeiten in diskreten Zeitintervallen zu visualisieren, sie eignen sich aber weniger gut, um eine zeitliche Entwicklung zu zeigen. 
 
 
 ## 5. Keyword in Context (KWIC) 
