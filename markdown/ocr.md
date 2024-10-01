@@ -23,7 +23,7 @@ name: OCR
 6. **Archivierung und Langzeitlagerung**: Durch die Digitalisierung und OCR können wichtige Dokumente sicher archiviert und langfristig gespeichert werden, ohne dass sie an Qualität verlieren.
 
 
-### Welche Programme/Software verwenden wir um OCR auszuführen
+### Welche Software verwenden wir um OCR auszuführen
 
 Die OCR-Technologie wird zunehmend in grundlegende Softwareanwendungen, wie z. B. verschiedene PDF-Viewer-Programme, integriert. Tools wie MacOS 'Preview' oder Adobe Acrobat verfügen über integrierte OCR-Funktionen. Diese sind jedoch nicht für die **Massenverarbeitung von Korpora** geeignet. Daher benötigt man nach wie vor **spezialisierte OCR-Software** oder Programmpakete, um **große Mengen an Bildern/PDFs** in maschinenlesbare Korpora zu verarbeiten.
 
