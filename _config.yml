@@ -47,8 +47,6 @@ html:
 launch_buttons:
   notebook_interface: jupyterlab
   colab_url: "https://colab.research.google.com"
-  binderhub_url: "https://mybinder.org"
-  thebe: true
 
 # Parse and render settings
 parse:
