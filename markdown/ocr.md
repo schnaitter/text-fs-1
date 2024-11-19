@@ -1,3 +1,21 @@
+---
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
+```{code-cell} ipython3
+:tags: [remove-cell]
+from jupyterquiz import display_quiz
+import sys
+sys.path.append("..")
+from quadriga_config import colors
+```
 # OCR als Methode, um Text maschinenlesbar zu machen
 
 **Optical Character Recognition (OCR)** ist eine Technologie, die es ermöglicht, gedruckten oder handgeschriebenen Text in Dokumenten oder Bildern in maschinenlesbaren Text umzuwandeln. OCR-Software analysiert das Layout des Dokuments, erkennt die Formen der Buchstaben und Zahlen und wandelt diese in digitale Texte um, die weiterverarbeitet werden können.
@@ -40,3 +58,9 @@ Das Feld der OCR-Tools entwickelt sich rasant (zusammen mit allen anderen Bereic
 #### OCR in Python mit PyTesseract
 
 In diesem Tutorial werden wir OCR mit **Tesseract** durchführen, das offen und kostenlos ist. Wir verwenden das Python-Paket **PyTesseract**.
+
+## Self-Assessment
+```{code-cell} ipython3
+:tags: [remove-input]
+display_quiz("../assesssment/ocr_quizzes.json", colors = colors.jupyterquiz)
+```

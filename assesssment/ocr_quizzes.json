@@ -1,0 +1,28 @@
+[
+    {
+        "question": "Welche Fragentypen gibt es in JupyterQuiz?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Digitale Bilder aus Text zu erstellen",
+                "correct": false,
+                "feedback": "test"
+            },
+            {
+                "answer": "Physische Dokumente in digitale Formate zu konvertieren",
+                "correct": true,
+                "feedback": "test"
+            },
+            {
+                "answer": "Texte zwischen Sprachen zu übersetzen",
+                "correct": false,
+                "feedback": "test"
+            },
+            {
+                "answer": "Dokumentdateien zu komprimieren",
+                "correct": false,
+                "feedback": "test"
+            }
+        ]
+    }
+]
