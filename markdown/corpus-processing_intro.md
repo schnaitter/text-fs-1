@@ -1,7 +1,6 @@
 (corpus-processing_intro)=
 # Einführung
-## Groblernziele dieses Kapitels
-```{admonition} Lernziele
+```{admonition} Groblernziel dieses Kapitels
 :class: lernziele
 Sie kennen Verfahren der Korpusverarbeitung mit Tools des Natural Language Processing und können diese Tools zur Tokenisierung und Lemmatisierung anwenden.
 ```

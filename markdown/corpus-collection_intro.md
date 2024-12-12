@@ -1,8 +1,6 @@
 (corpus-collection_intro)=
 # Einführung
-
-## Groblernziele dieses Kapitels
-```{admonition} Lernziele
+```{admonition} Groblernziel dieses Kapitels
 :class: lernziele
 Sie kennen unterschiedliche Ansätze des Korpusaufbaus und sind mit der Erstellung basaler Metadaten vertraut.
 ```

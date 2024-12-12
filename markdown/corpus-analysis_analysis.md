@@ -1,4 +1,8 @@
 # Häufigkeitenanalyse, Visualierung und KWIC 
+```{admonition} Feinlernziel(e) dieses Kapitels
+:class: lernziele
+Sie verfügen über ein Grundverständnis des Konzepts des semantischen Feldes, können digital Frequenzanalysen (zu Einzelwörtern und zu semantischen Feldern) auf einem Korpus ausführen und sich Keywords in Context anzeigen lassen. 
+```
 
 ## 1. Forschungsfrage und Operationalisierung
 Wir gehen von folgender Forschungsfrage aus: 

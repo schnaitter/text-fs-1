@@ -1,7 +1,6 @@
 (research-question_intro)=
 # Einführung
-## Groblernziel dieses Kapitels
-```{admonition} Lernziele
+```{admonition} Groblernziel dieses Kapitels
 :class: lernziele
 Sie kennen Grundfragen der geisteswissenschaftlichen Forschung mit Korpora nach dem qualitatien Methodenparadigma und wissen um das Konzept der "Operationalisierung"
 ```

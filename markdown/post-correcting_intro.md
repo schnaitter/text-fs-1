@@ -1,7 +1,6 @@
 (post-correcting_intro)=
 # Einführung
-## Groblernziel dieses Kapitels
-```{admonition} Lernziele
+```{admonition} Groblernziel dieses Kapitels
 :class: lernziele
 Sie kennen unterschiedliche Verfahren der Nachbearbeitung von OCR-Output zur Qualitätsverbesserung.
 ```
