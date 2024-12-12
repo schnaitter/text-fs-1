@@ -1,7 +1,10 @@
 (introduction_learning-outcomes)=
 # Lernziele dieser Fallstudie
-Nach erfolgreichem Durchlaufen dieser Fallstudie können im Erfolgsfall die folgenden Lernziele erreicht werden:
+Nach erfolgreichem Durchlaufen dieser Fallstudie können im Erfolgsfall die folgenden Groblernziele erreicht werden:
 
-1. Sie kennen Grundlagen der geisteswissenschaftlichen Forschung mit Korpora.
-2. Sie können mittels Optical Character Recognition (OCR) aus Bilddaten ein Forschungskorpus erstellen und die Qualität der Datensammlung anhand eines Samples bewerten.
-3. Sie kennen manuelle und (semi-)automatische Methoden zur Bereinigung, Filterung und Anreicherung der Datensammlung, können geeignete Methoden auswählen und diese auf eine Datensammlung anwenden.
+1. Sie kennen Grundfragen der geisteswissenschaftlichen Forschung mit Korpora nach dem qualitatien Methodenparadigma und wissen um das Konzept der "Operationalisierung" (siehe v.a. Kapitel ["Fragestellung und Operationalisierung"](research-question_intro)). 
+2. Sie kennen unterschiedliche Ansätze des Korpusaufbaus und sind mit der Erstellung basaler Metadaten vertraut (siehe v.a. Kapitel ["Korpusaufbau"](corpus-collection_intro)).
+3. Sie können mittels Optical Character Recognition (OCR) aus Bilddaten ein Forschungskorpus erstellen und die Qualität der Datensammlung anhand eines Samples bewerten (siehe v.a. Kapitel ["OCR — Vom Bild zum Text"](ocr_intro)).
+4. Sie kennen unterschiedliche Verfahren der Nachbearbeitung von OCR-Output zur Qualitätsverbesserung (siehe v.a. Kapitel ["Nachkorrektur der OCR-Ergebnisse"](post-correcting_intro)).
+5. Sie kennen Verfahren der Korpusverarbeitung mit Tools des Natural Language Processing und können diese Tools zur Tokenisierung und Lemmatisierung anwenden (siehe v.a. Kapitel ["Korpusverarbeitung – Von Strings zu Token"](corpus-processing_intro)).
+6. Sie können auf einem Korpus Frequenzanalysen zu Einzelwörtern und zu semantischen Feldern durchführen (siehe v.a. Kapitel ["Korpusanalyse"](corpus-analysis_intro)). 
