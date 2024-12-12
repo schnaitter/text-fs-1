@@ -31,7 +31,7 @@ name: Flussdiagramm der Fallstudie
 Flussdiagramm der Fallstudie, die sich aus sechs Arbeitspaketen zusammensetzt.
 ```
 
-- Im **1. Schritt** entwickeln wir eine Forschungsfrage und operationalisieren diese Forschungsfrage für die quantitative Analyse, entwickeln also ein Konzept, wie wir mittels Meßoperationen zu einer Antwort auf die Forschungsfrage kommen.
+- Im **1. Schritt** entwickeln wir eine Forschungsfrage und operationalisieren diese Forschungsfrage für die quantitative Analyse, entwickeln also ein Konzept, wie wir mittels Meßoperationen zu einer Antwort auf die Forschungsfrage kommen (siehe Kapitel ["Fragestellung und Operationalisierung"](research-question_intro)).
 - Im **2. Schritt** bauen wir ein Korpus aus Textobjekten für die Analyse auf, das zunächst aus PDF-Dateien besteht (siehe Kapitel ["Korpusaufbau"](corpus-collection_intro))
 - Im **3. Schritt** machen wir die Textobjekte im Korpus, die zunächst nur als Bilddateien vorliegen, mittels Optical Character Recognition (OCR) maschinenlesbar (siehe Kapitel ["OCR — Vom Bild zum Text"](ocr_intro))
 - Im **4. Schritt** evaluieren wir die OCR-Ergebnisse und testen Optionen zur Nachkorrektur (siehe Kapitel ["Nachkorrektur der OCR-Ergebnisse"](post-correcting_intro)).
