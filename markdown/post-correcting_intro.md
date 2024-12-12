@@ -1,6 +1,12 @@
 (post-correcting_intro)=
 # Einführung
+## Groblernziel dieses Kapitels
+```{admonition} Lernziele
+:class: lernziele
+Sie kennen unterschiedliche Verfahren der Nachbearbeitung von OCR-Output zur Qualitätsverbesserung.
+```
 
+## Zu diesem Kapitel
 Im vorigen [Kapitel](ocr) haben wir die Scans der Zeitungen per OCR automatisch in Klartext umgewandelt. In diesem Kapitel werden wir die Ergebnisse der OCR nachbearbeiten. 
 
 ```{figure} ../book_images/flow-chart_ocr-postprocessing.jpeg
