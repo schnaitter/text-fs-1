@@ -1,7 +1,13 @@
 (ocr_intro)=
 
 # Einführung
+## Groblernziele dieses Kapitels
+```{admonition} Lernziele
+:class: lernziele
+Sie können mittels Optical Character Recognition (OCR) aus Bilddaten ein Forschungskorpus erstellen und die Qualität der Datensammlung anhand eines Samples bewerten.
+```
 
+## Zu diesem Kapitel
 Nach dem vorherigen [Kapitel](corpus-collection_summary) haben wir also ein Korpus als Sammlung gescannter Bilder. Ein Korpus in dieser Form ist jedoch noch **nicht maschinenlesbar** und kann nicht direkt verarbeitet werden. In diesem Kapitel lernen wir, wie man mit OCR **Bilder in Text umwandelt**.
 
 ```{figure} ../book_images/flow-chart_ocr.jpeg

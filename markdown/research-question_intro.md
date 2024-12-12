@@ -1,6 +1,5 @@
 (research-question_intro)=
 # Einführung
-
 ## Groblernziel dieses Kapitels
 ```{admonition} Lernziele
 :class: lernziele
