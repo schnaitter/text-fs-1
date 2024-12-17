@@ -1,7 +1,7 @@
 # Häufigkeitenanalyse, Visualierung und KWIC 
 ```{admonition} Feinlernziel(e) dieses Kapitels
 :class: lernziele
-Sie verfügen über ein Grundverständnis des Konzepts des semantischen Feldes, können digital Frequenzanalysen (zu Einzelwörtern und zu semantischen Feldern) auf einem Korpus ausführen und sich Keywords in Context anzeigen lassen. 
+Sie verfügen über ein Grundverständnis des Konzepts des semantischen Feldes, können den Unterschied zwischen absoluten und relativen Häufigkeiten erklären und die Darstellungsmethoden des Liniendiagramms und der Key Word in Context (KWIC)-Anzeige interpretieren. 
 ```
 
 ## 1. Forschungsfrage und Operationalisierung
