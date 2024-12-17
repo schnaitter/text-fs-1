@@ -1,5 +1,9 @@
 (research-question_operationalization)= 
 # Operationalisierung
+```{admonition} Feinlernziel(e) dieses Kapitels
+:class: lernziele
+Sie kennen Ansätze zur Operationalisierung von Forschungsfragen für quantitaive Methoden-Settings.
+```
 
 Die im [vorhergehenden Abschnitt](research-question_research-question) entwickelte Forschungsfrage zielt darauf, öffentliche Aufmerksamkeit und deren Veränderung über die Zeit zu messen. Um eine solche Messung möglich zu machen, muss zunächst eine Operationalisierung der Forschungsfrage erfolgen. "Operationalisierung bezeichnet den Prozess, ein Erkennungs- oder Messverfahren für ein theoretisches Konzept zu entwickeln." {cite:p}`krautter_operationalisierung_2023`.
 
@@ -18,3 +22,8 @@ Als öffentliche Aufmerksamkeit im Berliner Raum sollen in unserer Fallstudie di
 Diese Operationalisierung ist, wie jede Operationalisierung in den Digital Humanities, diskutabel. Sie folgt dabei einem quantitativen Methodenparadigma. Und sie wählt mit der Worthäufigkeit einen einfachen Indikator für das zu messende Phänomen. Die Operationalisierung wird zudem weitere Einschränkungen erfahren müssen, etwa was das Korpus der Analysen betrifft, das mit der Formulierung "Texte in Berliner Tageszeitungen" derzeit sowohl zu unscharf angegeben ist als auch viel zu groß wäre. 
 
 Die Reflektion der Grenzen und Beschränkungen, die mit der eigenen Operationalisierung einhergehen, ist essentieller Bestandteil von Digital Humanities-Projekten. Wir werden in der abschließenden [Reflexion](reflection_reflection) darauf zurückkommen. 
+
+## Bibliographie
+```{bibliography}
+:style: alpha
+```
