@@ -2,7 +2,7 @@
 # Einführung
 ```{admonition} Groblernziel dieses Kapitels
 :class: lernziele
-Sie kennen Verfahren der Korpusverarbeitung mit Tools des Natural Language Processing und können diese Tools zur Tokenisierung und Lemmatisierung anwenden.
+Sie kennen Verfahren der Korpusverarbeitung mit Tools des Natural Language Processing und können Schritte zur Anwendung der Tools zur Tokenisierung und Lemmatisierung benennen.
 ```
 
 ## Zu diesem Kapitel

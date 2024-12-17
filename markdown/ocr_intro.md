@@ -3,7 +3,7 @@
 # Einführung
 ```{admonition} Groblernziel dieses Kapitels
 :class: lernziele
-Sie können mittels Optical Character Recognition (OCR) aus Bilddaten ein Forschungskorpus erstellen und die Qualität der Datensammlung anhand eines Samples bewerten.
+Sie können Schritte zur Erstellung eines Forschungskorpus aus Bilddaten  mittels Optical Character Recognition (OCR) aufzählen und die Qualität der Datensammlung anhand eines Samples bewerten.
 ```
 
 ## Zu diesem Kapitel

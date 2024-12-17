@@ -1,8 +1,7 @@
 (corpus-analysis_intro)=
 # Einführung 
 ```{admonition} Groblernziel dieses Kapitels
-:class: lernziele
-Sie können auf einem Korpus Frequenzanalysen zu Einzelwörtern und zu semantischen Feldern durchführen.
+Sie können die auf einem Korpus ausgeführten Frequenzanalysen zu semantischen Feldern erklären und die Ergebnisse interpretieren
 ```
 
 ## Zu diesem Kapitel
