@@ -1,4 +1,8 @@
 # Häufigkeitenanalyse, Visualierung und KWIC 
+```{admonition} Feinlernziel(e) dieses Kapitels
+:class: lernziele
+Sie verfügen über ein Grundverständnis des Konzepts des semantischen Feldes, können digital Frequenzanalysen (zu Einzelwörtern und zu semantischen Feldern) auf einem Korpus ausführen und sich Keywords in Context anzeigen lassen. 
+```
 
 ## 1. Forschungsfrage und Operationalisierung
 Wir gehen von folgender Forschungsfrage aus: 
@@ -35,13 +39,14 @@ Bitte erstelle ein semantisches Feld zum Thema "Grippe". Die Sprache ist deutsch
 * die Wörter sollen spezifisch für den Kontext "Grippe" sein;
 * die Wörter sollen nicht mehrdeutig sein, also noch Möglichkeit nicht in anderen semantischen Kontext vorkommen;
 ```
-Als Resultat haben wir eine Liste mit 25 Nomen erhalten. 
+Als Resultat haben wir eine Liste mit 25 Nomen erhalten:
+Influenza, Grippe, Grippeepidemie, Grippewelle, Grippekranke, Grippepandemie, Lungenentzündung, Krankheitswelle, Seuchenzug, Krankheitsausbruch, Fieberanfall, Schüttelfrost, Atemnot, Körpererschöpfung, Genesungszeit, Ansteckungsgefahr, Seuchenschutz, Desinfektionsmittel, Schutzmaske, Krankenstation, Isolationsstation, Sanitätsdienst, Krankheitsverlauf, Todesopfer, Krankheitssymptom, Erkrankungsfall, Lungeninfektion
 
 
 ## 3. Häufigkeit als Analysemethode 
 
 ### 3.1 Warum die Häufigkeit analysieren?
-Die Analyse von Worthäufigkeiten ist sowohl in der Korpuslinugistik als auch in den Digital Humanities [p. 73] weit verbreitet. Für die Analyse von Inhaltswörtern (Nomen, Verben, Adjektive, Adverben) wird angenommen, dass ein hohes Vorkommen mit der Wichtigkeit der Wörter im Text korreliert. Besonders bei einer vergleichenden Analyse (etwa von zwei Zeitungen oder einem Thema über Zeit) ist die Häufigkeitsanalyse sinnvoll, da der Vergleich so quantisierbar wird. 
+Die Analyse von Worthäufigkeiten ist sowohl in der Korpuslinguistik als auch in den Digital Humanities [p. 73] weit verbreitet. Für die Analyse von Inhaltswörtern (Nomen, Verben, Adjektive, Adverben) wird angenommen, dass ein hohes Vorkommen mit der Wichtigkeit der Wörter im Text korreliert. Besonders bei einer vergleichenden Analyse (etwa von zwei Zeitungen oder einem Thema über Zeit) ist die Häufigkeitsanalyse sinnvoll, da der Vergleich so quantisierbar wird. 
 
 ### 3.2 Häufigkeit von Grippe
 Um die Wichtigkeit eines Themenfelds wie der Spanischen Grippe zu untersuchen, bietet es sich an, nicht nur das Vorkommen eines einzelnen Wortes wie "Grippe" zu untersuchen, sondern andere, mit Grippe im Zusammenhang stehende Wörter zu sammeln. Die Wörter werden in der Grundform angegeben, sodass sie mit den Lemmata im Text verglichen werden können.

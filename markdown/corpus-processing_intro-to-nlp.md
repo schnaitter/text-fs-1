@@ -1,4 +1,8 @@
 # NLP als Methode zur "Semantisierung" von Text
+```{admonition} Feinlernziel(e) dieses Kapitels
+:class: lernziele
+Sie verfügen über ein Grundverständnis des Natural Language Processing, sind vertraut mit den Methoden der Tokenisierung und Lemmatisierung und kennen ausgewählte NLP-Tools.
+```
 
 ## 1. Was ist NLP und warum benutzen wir es?
 Für den Computer ist ein Text eine Liste von Zeichen, die nicht aus semantischen Einheiten wie z.B. Wörtern oder Sätzen besteht. Sobald die Operationalisierung einer Forschungsfrage von diesen semantischen Einheiten ausgeht, z.B. auf der Häufigkeit eines Wortes aufbaut, ist es sinnvoll Methoden des [Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing) (NLP) anzuwenden, um den Text mit zusätzlichen linguistischen Informationen anzureichern.  

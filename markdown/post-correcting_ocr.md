@@ -1,4 +1,8 @@
 # Einführung in die OCR-Nachbearbeitung
+```{admonition} Feinlernziel(e) dieses Kapitels
+:class: lernziele
+Sie kennen häufige OCR-Fehler und sind mit Ansätze zu deren Korrektur vertraut. 
+```
 
 Während OCR-Software heutzutage sehr leistungsfähig ist, sind die Ergebnisse nicht immer perfekt und erfordern häufig eine Nachbearbeitung, um Fehler zu korrigieren und die Textqualität zu verbessern.
 
