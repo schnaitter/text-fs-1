@@ -43,6 +43,8 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  extra_css: 
+    - _static/quadriga.css
 
 launch_buttons:
   notebook_interface: jupyterlab
@@ -64,7 +66,7 @@ parse:
     - tasklist
 
 # Files to exclude from the build
-exclude_patterns: [nlp-enrichment/enrichment_tweaked.ipynb, data-input/aux/*, word_search/parse_conll_make_search.ipynb, README.md, conda/*]
+exclude_patterns: [nlp-enrichment/enrichment_tweaked.ipynb, data-input/aux/*, word_search/parse_conll_make_search.ipynb, README.md, conda/*, venv/*]
 
 # Enable interactive widgets
 jupyter:

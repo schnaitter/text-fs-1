@@ -4,3 +4,25 @@ html[data-theme='dark'] div.cell details.above-input > summary {
     background-color: #29313d !important;
     color: #f7fbff !important;
 }
+
+/* Dark mode styles */
+html[data-theme='dark'] .widget-html,
+html[data-theme='dark'] .widget-html-content {
+    color: #f7fbff !important;
+}
+
+/* Light mode styles */
+html[data-theme='light'] .widget-html,
+html[data-theme='light'] .widget-html-content {
+    color: #333333 !important;
+}
+
+.widget-text input:focus, .widget-text input:active {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.widget-text input[type='text']{
+    border-radius: 4px;
+}
