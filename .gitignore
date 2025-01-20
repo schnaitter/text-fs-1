@@ -3,3 +3,4 @@ _build
 conda/
 __pycache__/
 .vscode/
+venv/
